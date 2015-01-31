@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMX Sample Core</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_venue">VenueActivity</string>
+    <string name="title_activity_all_info">All Venue Information</string>
+    <string name="title_activity_venue_floors">VenueFloorsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_floor_pois">FloorPoisActivity</string>
+    
+    <!-- Dialog button -->
+    <string name="cmx_ok_dialog_bt">OK</string>
+    <string name="cmx_cancel_dialog_bt">Cancel</string>
+    <string name="cmx_yes_dialog_bt">Yes</string>
+    <string name="cmx_no_dialog_bt">No</string>
+    
+</resources>

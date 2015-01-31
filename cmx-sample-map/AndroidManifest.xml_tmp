@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cisco.cmx.app"
+    android:versionCode="1"
+    android:versionName="1.0.0.22-SNAPSHOT" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    
+    
+    <!-- GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+
+	<uses-feature android:name="android.hardware.wifi" />
+	
+	<!-- GCM requires a Google account. (necessary only if if the device is running a version lower than Android 4.0.4) -->
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+	<!-- Keeps the processor from sleeping when a message is received. (Optional—use only if the app wants to keep the device from sleeping) -->
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	
+	<!-- Creates a custom permission so only this app can receive its messages.
+	NOTE: the permission *must* be called PACKAGE.permission.C2D_MESSAGE, where PACKAGE is the application's package name. -->
+	<permission	android:name="com.cisco.cmx.app.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+	<uses-permission android:name="com.cisco.cmx.app.permission.C2D_MESSAGE" /> 
+ 
+	<!-- This app has permission to register and receive data message. -->
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	
+	<!-- facebook -->
+	<uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+	
+		
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:name=".DemoApp">       
+        
+        <activity android:name="com.facebook.LoginActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:label="@string/app_name" />
+        
+		<activity android:name="com.twitter.applib.PostActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:label="@string/app_name" />
+        
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/cmx_poi_share_facebook_app_id"/>
+                    
+        <activity android:name="DemoLaunchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+             
+        <activity android:configChanges="orientation|keyboardHidden|screenSize" 
+              android:name="com.cisco.cmx.app.gcm.CMXGcmActivity" android:label="@string/app_name"></activity>
+        
+         <activity android:configChanges="orientation|keyboardHidden|screenSize" 
+            android:name="com.cisco.cmx.app.DemoCMXMainActivity" android:label="@string/app_name" android:icon="@drawable/ic_action_list">
+            <intent-filter>
+                <action android:name="com.cisco.cmx.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>        
+
+        <activity android:name="com.cisco.cmx.ui.CMXSettingsActivity" android:label="@string/settings_activity_title" android:icon="@drawable/list_settings_icon">
+            <intent-filter>
+                <action android:name="com.cisco.cmx.action.SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.cisco.cmx.ui.CMXPoiActivity" 
+            android:label="@string/poi_activity_title"
+            android:launchMode="singleTop"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="com.cisco.cmx.action.POI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="oauth" android:host="cmxcallback"/>
+            </intent-filter>
+        </activity>
+        
+        <receiver
+            android:name="com.cisco.cmx.app.gcm.CMXGcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.cisco.cmx" />
+            </intent-filter>
+        </receiver>
+                
+		<receiver android:name="com.cisco.cmx.app.gcm.CMXGcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+		    <intent-filter>
+		         <!-- Receives the actual messages. -->
+		         <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		         <!-- Receives the registration id. -->
+		         <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		        <category android:name="com.cisco.cmx" />
+		    </intent-filter>
+		</receiver>
+	  		
+		<service android:name="com.cisco.cmx.app.gcm.CMXGcmIntentService" />
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1402626495000 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e /usr/jenkins/jobs/cmx-mobile-app-android/workspace/cmx/android/src/3rdParty/android-support-v7-appcompat/libs/android-support-v4.jar
+1402626495000 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e /usr/jenkins/jobs/cmx-mobile-app-android/workspace/cmx/android/src/3rdParty/facebook/libs/android-support-v4.jar
