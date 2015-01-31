@@ -14,6 +14,17 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# Ignore gradle files
+.gradle/
+build/
+
+#local configuration file (sdk paht, etc)
+local.properties
+
+/.idea/libraries
+/.idea/workspace.xml
+.DS_Store
+
 # Windows shortcuts
 *.lnk
 
