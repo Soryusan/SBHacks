@@ -21,88 +21,94 @@ import android.widget.TextView;
 
 public class FloorPoisActivity extends ActionBarActivity {
 
-    public static String EXTRA_FLOOR = "FLOOR";
+	public static String EXTRA_FLOOR = "FLOOR";
 
-    public static String EXTRA_POIS = "POIS";
+	public static String EXTRA_POIS = "POIS";
 
-    Bundle parentExtras;
+	Bundle parentExtras;
 
-    ArrayList<CMXPoi> mPois;
-    
-    ListView mListView;
+	ArrayList<CMXPoi> mPois;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_floor_pois);
-        parentExtras = getIntent().getExtras();
-        
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().add(R.id.container, new PlaceholderFragment()).commit();
-        }
-    }
+	ListView mListView;
 
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-        CMXFloor floor = (CMXFloor) getIntent().getExtras().get(FloorPoisActivity.EXTRA_FLOOR);
-        TextView floorName = (TextView) findViewById(R.id.textFloorName);
-        TextView floorId = (TextView) findViewById(R.id.textFloorId);
-        TextView floorHierarchy = (TextView) findViewById(R.id.textFloorHierarchy);
-        
-        floorName.setText(floor.getName());
-        floorId.setText(floor.getId());
-        floorHierarchy.setText(floor.getHierarchy());
-        
-        mListView = (ListView) findViewById(R.id.listViewPois);        
-        mPois = getIntent().getExtras().getParcelableArrayList(FloorPoisActivity.EXTRA_POIS);
-        final ArrayList<String> list = new ArrayList<String>();
-        for (int i = 0; i < mPois.size(); ++i) {
-            list.add(mPois.get(i).getName());
-        }
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
-        mListView.setAdapter(adapter);        
-    }
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_floor_pois);
+		parentExtras = getIntent().getExtras();
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+		if (savedInstanceState == null) {
+			getSupportFragmentManager().beginTransaction()
+					.add(R.id.container, new PlaceholderFragment()).commit();
+		}
+	}
 
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.floor_pois, menu);
-        return true;
-    }
+	@Override
+	protected void onPostCreate(Bundle savedInstanceState) {
+		super.onPostCreate(savedInstanceState);
+		CMXFloor floor = (CMXFloor) getIntent().getExtras().get(
+				FloorPoisActivity.EXTRA_FLOOR);
+		TextView floorName = (TextView) findViewById(R.id.textFloorName);
+		TextView floorId = (TextView) findViewById(R.id.textFloorId);
+		TextView floorHierarchy = (TextView) findViewById(R.id.textFloorHierarchy);
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        if (id == android.R.id.home) {
-            Intent upIntent = NavUtils.getParentActivityIntent(this);
-            upIntent.putExtras(parentExtras);
-            NavUtils.navigateUpTo(this, upIntent);
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+		floorName.setText(floor.getName());
+		floorId.setText(floor.getId());
+		floorHierarchy.setText(floor.getHierarchy());
 
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
+		mListView = (ListView) findViewById(R.id.listViewPois);
+		mPois = getIntent().getExtras().getParcelableArrayList(
+				FloorPoisActivity.EXTRA_POIS);
+		final ArrayList<String> list = new ArrayList<String>();
+		for (int i = 0; i < mPois.size(); ++i) {
+			list.add(mPois.get(i).getName());
+		}
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_list_item_1, list);
+		mListView.setAdapter(adapter);
+	}
 
-        public PlaceholderFragment() {
-        }
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
 
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_floor_pois, container, false);
-            return rootView;
-        }
-    }
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.floor_pois, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		if (id == android.R.id.home) {
+			Intent upIntent = NavUtils.getParentActivityIntent(this);
+			upIntent.putExtras(parentExtras);
+			NavUtils.navigateUpTo(this, upIntent);
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
+	/**
+	 * A placeholder fragment containing a simple view.
+	 */
+	public static class PlaceholderFragment extends Fragment {
+
+		public PlaceholderFragment() {
+		}
+
+		@Override
+		public View onCreateView(LayoutInflater inflater, ViewGroup container,
+				Bundle savedInstanceState) {
+			View rootView = inflater.inflate(R.layout.fragment_floor_pois,
+					container, false);
+			return rootView;
+		}
+	}
 
 }

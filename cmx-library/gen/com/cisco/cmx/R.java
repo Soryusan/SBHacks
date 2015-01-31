@@ -1150,13 +1150,13 @@ containing a value of this type.
         public static int zOrderOnTop=0x7f010097;
     }
     public static final class bool {
-        public static int abc_action_bar_embed_tabs_pre_jb=0x7f0c0000;
-        public static int abc_action_bar_expanded_action_views_exclusive=0x7f0c0001;
+        public static int abc_action_bar_embed_tabs_pre_jb=0x7f0b0000;
+        public static int abc_action_bar_expanded_action_views_exclusive=0x7f0b0001;
         /**  Whether action menu items should be displayed in ALLCAPS or not.
          Defaults to true. If this is not appropriate for specific locales
          it should be disabled in that locale's resources. 
          */
-        public static int abc_config_actionMenuItemAllCaps=0x7f0c0005;
+        public static int abc_config_actionMenuItemAllCaps=0x7f0b0005;
         /**  Whether action menu items should obey the "withText" showAsAction
     flag. This may be set to false for situations where space is
     extremely limited. 
@@ -1164,36 +1164,36 @@ containing a value of this type.
          This may be set to false for situations where space is
          extremely limited. 
          */
-        public static int abc_config_allowActionMenuItemTextWithIcon=0x7f0c0004;
-        public static int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0c0003;
-        public static int abc_split_action_bar_is_narrow=0x7f0c0002;
+        public static int abc_config_allowActionMenuItemTextWithIcon=0x7f0b0004;
+        public static int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0b0003;
+        public static int abc_split_action_bar_is_narrow=0x7f0b0002;
     }
     public static final class color {
-        public static int abc_search_url_text_holo=0x7f090014;
-        public static int abc_search_url_text_normal=0x7f090007;
-        public static int abc_search_url_text_pressed=0x7f090009;
-        public static int abc_search_url_text_selected=0x7f090008;
-        public static int com_facebook_blue=0x7f090002;
-        public static int com_facebook_loginview_text_color=0x7f090006;
-        public static int com_facebook_picker_search_bar_background=0x7f090000;
-        public static int com_facebook_picker_search_bar_text=0x7f090001;
-        public static int com_facebook_usersettingsfragment_connected_shadow_color=0x7f090004;
-        public static int com_facebook_usersettingsfragment_connected_text_color=0x7f090003;
-        public static int com_facebook_usersettingsfragment_not_connected_text_color=0x7f090005;
-        public static int common_action_bar_splitter=0x7f090013;
+        public static int abc_search_url_text_holo=0x7f080014;
+        public static int abc_search_url_text_normal=0x7f080007;
+        public static int abc_search_url_text_pressed=0x7f080009;
+        public static int abc_search_url_text_selected=0x7f080008;
+        public static int com_facebook_blue=0x7f080002;
+        public static int com_facebook_loginview_text_color=0x7f080006;
+        public static int com_facebook_picker_search_bar_background=0x7f080000;
+        public static int com_facebook_picker_search_bar_text=0x7f080001;
+        public static int com_facebook_usersettingsfragment_connected_shadow_color=0x7f080004;
+        public static int com_facebook_usersettingsfragment_connected_text_color=0x7f080003;
+        public static int com_facebook_usersettingsfragment_not_connected_text_color=0x7f080005;
+        public static int common_action_bar_splitter=0x7f080013;
         /**  Sign-in Button Colors 
          */
-        public static int common_signin_btn_dark_text_default=0x7f09000a;
-        public static int common_signin_btn_dark_text_disabled=0x7f09000c;
-        public static int common_signin_btn_dark_text_focused=0x7f09000d;
-        public static int common_signin_btn_dark_text_pressed=0x7f09000b;
-        public static int common_signin_btn_default_background=0x7f090012;
-        public static int common_signin_btn_light_text_default=0x7f09000e;
-        public static int common_signin_btn_light_text_disabled=0x7f090010;
-        public static int common_signin_btn_light_text_focused=0x7f090011;
-        public static int common_signin_btn_light_text_pressed=0x7f09000f;
-        public static int common_signin_btn_text_dark=0x7f090015;
-        public static int common_signin_btn_text_light=0x7f090016;
+        public static int common_signin_btn_dark_text_default=0x7f08000a;
+        public static int common_signin_btn_dark_text_disabled=0x7f08000c;
+        public static int common_signin_btn_dark_text_focused=0x7f08000d;
+        public static int common_signin_btn_dark_text_pressed=0x7f08000b;
+        public static int common_signin_btn_default_background=0x7f080012;
+        public static int common_signin_btn_light_text_default=0x7f08000e;
+        public static int common_signin_btn_light_text_disabled=0x7f080010;
+        public static int common_signin_btn_light_text_focused=0x7f080011;
+        public static int common_signin_btn_light_text_pressed=0x7f08000f;
+        public static int common_signin_btn_text_dark=0x7f080015;
+        public static int common_signin_btn_text_light=0x7f080016;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1202,100 +1202,100 @@ containing a value of this type.
  Default height of an action bar. 
  Default height of an action bar. 
          */
-        public static int abc_action_bar_default_height=0x7f08000f;
+        public static int abc_action_bar_default_height=0x7f07000f;
         /**  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
          */
-        public static int abc_action_bar_icon_vertical_padding=0x7f080010;
+        public static int abc_action_bar_icon_vertical_padding=0x7f070010;
         /**  Size of the indeterminate Progress Bar 
  Size of the indeterminate Progress Bar 
          */
-        public static int abc_action_bar_progress_bar_size=0x7f080017;
+        public static int abc_action_bar_progress_bar_size=0x7f070017;
         /**  Maximum height for a stacked tab bar as part of an action bar 
          */
-        public static int abc_action_bar_stacked_max_height=0x7f080016;
+        public static int abc_action_bar_stacked_max_height=0x7f070016;
         /**  Maximum width for a stacked action bar tab. This prevents
          action bar tabs from becoming too wide on a wide screen when only
          a few are present. 
          */
-        public static int abc_action_bar_stacked_tab_max_width=0x7f08000e;
+        public static int abc_action_bar_stacked_tab_max_width=0x7f07000e;
         /**  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
          */
-        public static int abc_action_bar_subtitle_bottom_margin=0x7f080014;
+        public static int abc_action_bar_subtitle_bottom_margin=0x7f070014;
         /**  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
          */
-        public static int abc_action_bar_subtitle_text_size=0x7f080012;
+        public static int abc_action_bar_subtitle_text_size=0x7f070012;
         /**  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
          */
-        public static int abc_action_bar_subtitle_top_margin=0x7f080013;
+        public static int abc_action_bar_subtitle_top_margin=0x7f070013;
         /**  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
          */
-        public static int abc_action_bar_title_text_size=0x7f080011;
+        public static int abc_action_bar_title_text_size=0x7f070011;
         /**  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
          */
-        public static int abc_action_button_min_width=0x7f080015;
+        public static int abc_action_button_min_width=0x7f070015;
         /**  The maximum width we would prefer dialogs to be.  0 if there is no
     maximum (let them grow as large as the screen).  Actual values are
     specified for -large and -xlarge configurations. 
  see comment in values/config.xml 
  see comment in values/config.xml 
          */
-        public static int abc_config_prefDialogWidth=0x7f08000d;
+        public static int abc_config_prefDialogWidth=0x7f07000d;
         /**  Width of the icon in a dropdown list 
          */
-        public static int abc_dropdownitem_icon_width=0x7f08001d;
+        public static int abc_dropdownitem_icon_width=0x7f07001d;
         /**  Text padding for dropdown items 
          */
-        public static int abc_dropdownitem_text_padding_left=0x7f08001b;
-        public static int abc_dropdownitem_text_padding_right=0x7f08001c;
-        public static int abc_panel_menu_list_width=0x7f080018;
+        public static int abc_dropdownitem_text_padding_left=0x7f07001b;
+        public static int abc_dropdownitem_text_padding_right=0x7f07001c;
+        public static int abc_panel_menu_list_width=0x7f070018;
         /**  Preferred width of the search view. 
          */
-        public static int abc_search_view_preferred_width=0x7f08001a;
+        public static int abc_search_view_preferred_width=0x7f07001a;
         /**  Minimum width of the search view text entry area. 
  Minimum width of the search view text entry area. 
  Minimum width of the search view text entry area. 
  Minimum width of the search view text entry area. 
          */
-        public static int abc_search_view_text_min_width=0x7f080019;
-        public static int com_facebook_loginview_compound_drawable_padding=0x7f080008;
-        public static int com_facebook_loginview_padding_bottom=0x7f080007;
-        public static int com_facebook_loginview_padding_left=0x7f080004;
-        public static int com_facebook_loginview_padding_right=0x7f080005;
-        public static int com_facebook_loginview_padding_top=0x7f080006;
-        public static int com_facebook_loginview_text_size=0x7f080009;
-        public static int com_facebook_picker_divider_width=0x7f080001;
-        public static int com_facebook_picker_place_image_size=0x7f080000;
-        public static int com_facebook_profilepictureview_preset_size_large=0x7f08000c;
-        public static int com_facebook_profilepictureview_preset_size_normal=0x7f08000b;
-        public static int com_facebook_profilepictureview_preset_size_small=0x7f08000a;
-        public static int com_facebook_usersettingsfragment_profile_picture_height=0x7f080003;
-        public static int com_facebook_usersettingsfragment_profile_picture_width=0x7f080002;
-        public static int slidingmenu_offset=0x7f08001f;
+        public static int abc_search_view_text_min_width=0x7f070019;
+        public static int com_facebook_loginview_compound_drawable_padding=0x7f070008;
+        public static int com_facebook_loginview_padding_bottom=0x7f070007;
+        public static int com_facebook_loginview_padding_left=0x7f070004;
+        public static int com_facebook_loginview_padding_right=0x7f070005;
+        public static int com_facebook_loginview_padding_top=0x7f070006;
+        public static int com_facebook_loginview_text_size=0x7f070009;
+        public static int com_facebook_picker_divider_width=0x7f070001;
+        public static int com_facebook_picker_place_image_size=0x7f070000;
+        public static int com_facebook_profilepictureview_preset_size_large=0x7f07000c;
+        public static int com_facebook_profilepictureview_preset_size_normal=0x7f07000b;
+        public static int com_facebook_profilepictureview_preset_size_small=0x7f07000a;
+        public static int com_facebook_usersettingsfragment_profile_picture_height=0x7f070003;
+        public static int com_facebook_usersettingsfragment_profile_picture_width=0x7f070002;
+        public static int slidingmenu_offset=0x7f07001f;
         /**  sliding menu 
          */
-        public static int slidingmenu_shadow_width=0x7f08001e;
+        public static int slidingmenu_shadow_width=0x7f07001e;
     }
     public static final class drawable {
         public static int abc_ab_bottom_solid_dark_holo=0x7f020000;
@@ -1471,150 +1471,150 @@ containing a value of this type.
         public static int stroke_background=0x7f0200a9;
     }
     public static final class id {
-        public static int action_bar=0x7f070026;
-        public static int action_bar_activity_content=0x7f070017;
-        public static int action_bar_container=0x7f070025;
-        public static int action_bar_overlay_layout=0x7f070029;
-        public static int action_bar_root=0x7f070024;
-        public static int action_bar_subtitle=0x7f07002d;
-        public static int action_bar_title=0x7f07002c;
-        public static int action_context_bar=0x7f070027;
-        public static int action_feedback=0x7f07008e;
-        public static int action_menu_divider=0x7f070018;
-        public static int action_menu_presenter=0x7f070019;
-        public static int action_mode_close_button=0x7f07002e;
-        public static int activity_chooser_view_content=0x7f07002f;
-        public static int always=0x7f07000d;
-        public static int beginning=0x7f070013;
-        public static int checkbox=0x7f070037;
-        public static int cmx_floor_banner_imageview=0x7f07004a;
-        public static int cmx_floor_root_layout=0x7f070046;
-        public static int cmx_floor_view=0x7f070048;
-        public static int cmx_floor_view_progressBar=0x7f070049;
-        public static int cmx_launch_logo=0x7f07004c;
-        public static int cmx_launch_progress=0x7f07004d;
-        public static int cmx_launch_retry_button=0x7f07004e;
-        public static int cmx_launch_root_layout=0x7f07004b;
-        public static int cmx_list_child_accessory=0x7f070051;
-        public static int cmx_list_child_title=0x7f070050;
-        public static int cmx_list_expandable_view=0x7f070063;
-        public static int cmx_list_footer_root_layout=0x7f070052;
-        public static int cmx_list_footer_section_layout=0x7f070054;
-        public static int cmx_list_footer_section_title=0x7f070053;
-        public static int cmx_list_footer_settings_accessory=0x7f070057;
-        public static int cmx_list_footer_settings_imageview=0x7f070055;
-        public static int cmx_list_footer_settings_title=0x7f070056;
-        public static int cmx_list_group_accessory=0x7f07005b;
-        public static int cmx_list_group_image=0x7f070059;
-        public static int cmx_list_group_root_layout=0x7f070058;
-        public static int cmx_list_group_title=0x7f07005a;
-        public static int cmx_list_header_current_location_accessory=0x7f070060;
-        public static int cmx_list_header_current_location_imageView=0x7f07005e;
-        public static int cmx_list_header_current_location_layout=0x7f07005d;
-        public static int cmx_list_header_current_location_title=0x7f07005f;
-        public static int cmx_list_header_root_layout=0x7f07005c;
-        public static int cmx_list_header_section_title=0x7f070061;
-        public static int cmx_list_root_layout=0x7f070062;
-        public static int cmx_main_root_layout=0x7f070047;
-        public static int cmx_poi_action_layout=0x7f070068;
-        public static int cmx_poi_description_title=0x7f07006c;
-        public static int cmx_poi_goto_button=0x7f07006a;
-        public static int cmx_poi_goto_layout=0x7f070069;
-        public static int cmx_poi_goto_title=0x7f07006b;
-        public static int cmx_poi_login_button=0x7f07006e;
-        public static int cmx_poi_more_infos_title=0x7f07006d;
-        public static int cmx_poi_root_layout=0x7f070064;
-        public static int cmx_poi_title=0x7f070067;
-        public static int cmx_poi_title_image=0x7f070066;
-        public static int cmx_poi_title_layout=0x7f070065;
-        public static int cmx_search_item_goto_button=0x7f070070;
-        public static int cmx_search_item_root_layout=0x7f07006f;
-        public static int cmx_search_item_title=0x7f070071;
-        public static int cmx_search_list_view=0x7f070074;
-        public static int cmx_search_progressbar=0x7f070075;
-        public static int cmx_search_root_layout=0x7f070072;
-        public static int cmx_search_view=0x7f070073;
-        public static int cmx_share_dialog_login_button=0x7f070076;
-        public static int collapseActionView=0x7f07000f;
-        public static int com_facebook_login_activity_progress_bar=0x7f070079;
-        public static int com_facebook_picker_activity_circle=0x7f070078;
-        public static int com_facebook_picker_checkbox=0x7f07007b;
-        public static int com_facebook_picker_checkbox_stub=0x7f07007f;
-        public static int com_facebook_picker_divider=0x7f070083;
-        public static int com_facebook_picker_done_button=0x7f070082;
-        public static int com_facebook_picker_image=0x7f07007c;
-        public static int com_facebook_picker_list_section_header=0x7f070080;
-        public static int com_facebook_picker_list_view=0x7f070077;
-        public static int com_facebook_picker_profile_pic_stub=0x7f07007d;
-        public static int com_facebook_picker_row_activity_circle=0x7f07007a;
-        public static int com_facebook_picker_search_text=0x7f070088;
-        public static int com_facebook_picker_title=0x7f07007e;
-        public static int com_facebook_picker_title_bar=0x7f070085;
-        public static int com_facebook_picker_title_bar_stub=0x7f070084;
-        public static int com_facebook_picker_top_bar=0x7f070081;
-        public static int com_facebook_search_bar_view=0x7f070087;
-        public static int com_facebook_usersettingsfragment_login_button=0x7f07008b;
-        public static int com_facebook_usersettingsfragment_logo_image=0x7f070089;
-        public static int com_facebook_usersettingsfragment_profile_name=0x7f07008a;
-        public static int default_activity_button=0x7f070032;
-        public static int dialog=0x7f070010;
-        public static int disableHome=0x7f07000a;
-        public static int dropdown=0x7f070011;
-        public static int edit_query=0x7f07003a;
-        public static int end=0x7f070015;
-        public static int expand_activities_button=0x7f070030;
-        public static int expanded_menu=0x7f070036;
-        public static int fullscreen=0x7f07001f;
-        public static int home=0x7f070016;
-        public static int homeAsUp=0x7f070007;
-        public static int hybrid=0x7f070023;
-        public static int icon=0x7f070034;
-        public static int ifRoom=0x7f07000c;
-        public static int image=0x7f070031;
-        public static int large=0x7f070002;
-        public static int left=0x7f07001c;
-        public static int listMode=0x7f070003;
-        public static int list_child_root_layout=0x7f07004f;
-        public static int list_item=0x7f070033;
-        public static int margin=0x7f07001e;
-        public static int menu_refresh=0x7f07008d;
-        public static int menu_search=0x7f07008f;
-        public static int middle=0x7f070014;
-        public static int never=0x7f07000b;
-        public static int none=0x7f070012;
-        public static int normal=0x7f070001;
-        public static int picker_subtitle=0x7f070086;
-        public static int progress_circular=0x7f07001a;
-        public static int progress_horizontal=0x7f07001b;
-        public static int radio=0x7f070039;
-        public static int right=0x7f07001d;
-        public static int satellite=0x7f070021;
-        public static int search_badge=0x7f07003c;
-        public static int search_bar=0x7f07003b;
-        public static int search_button=0x7f07003d;
-        public static int search_close_btn=0x7f070042;
-        public static int search_edit_frame=0x7f07003e;
-        public static int search_go_btn=0x7f070044;
-        public static int search_mag_icon=0x7f07003f;
-        public static int search_plate=0x7f070040;
-        public static int search_src_text=0x7f070041;
-        public static int search_voice_btn=0x7f070045;
-        public static int selected_view=0x7f070020;
-        public static int shortcut=0x7f070038;
-        public static int showCustom=0x7f070009;
-        public static int showHome=0x7f070006;
-        public static int showTitle=0x7f070008;
-        public static int slidingmenumain=0x7f07008c;
-        public static int small=0x7f070000;
-        public static int split_action_bar=0x7f070028;
-        public static int submit_area=0x7f070043;
-        public static int tabMode=0x7f070004;
-        public static int terrain=0x7f070022;
-        public static int title=0x7f070035;
-        public static int top_action_bar=0x7f07002a;
-        public static int up=0x7f07002b;
-        public static int useLogo=0x7f070005;
-        public static int withText=0x7f07000e;
+        public static int action_bar=0x7f0d0026;
+        public static int action_bar_activity_content=0x7f0d0001;
+        public static int action_bar_container=0x7f0d0025;
+        public static int action_bar_overlay_layout=0x7f0d0029;
+        public static int action_bar_root=0x7f0d0024;
+        public static int action_bar_subtitle=0x7f0d002d;
+        public static int action_bar_title=0x7f0d002c;
+        public static int action_context_bar=0x7f0d0027;
+        public static int action_feedback=0x7f0d008e;
+        public static int action_menu_divider=0x7f0d0002;
+        public static int action_menu_presenter=0x7f0d0003;
+        public static int action_mode_close_button=0x7f0d002e;
+        public static int activity_chooser_view_content=0x7f0d002f;
+        public static int always=0x7f0d0012;
+        public static int beginning=0x7f0d0019;
+        public static int checkbox=0x7f0d0037;
+        public static int cmx_floor_banner_imageview=0x7f0d004a;
+        public static int cmx_floor_root_layout=0x7f0d0046;
+        public static int cmx_floor_view=0x7f0d0048;
+        public static int cmx_floor_view_progressBar=0x7f0d0049;
+        public static int cmx_launch_logo=0x7f0d004c;
+        public static int cmx_launch_progress=0x7f0d004d;
+        public static int cmx_launch_retry_button=0x7f0d004e;
+        public static int cmx_launch_root_layout=0x7f0d004b;
+        public static int cmx_list_child_accessory=0x7f0d0051;
+        public static int cmx_list_child_title=0x7f0d0050;
+        public static int cmx_list_expandable_view=0x7f0d0063;
+        public static int cmx_list_footer_root_layout=0x7f0d0052;
+        public static int cmx_list_footer_section_layout=0x7f0d0054;
+        public static int cmx_list_footer_section_title=0x7f0d0053;
+        public static int cmx_list_footer_settings_accessory=0x7f0d0057;
+        public static int cmx_list_footer_settings_imageview=0x7f0d0055;
+        public static int cmx_list_footer_settings_title=0x7f0d0056;
+        public static int cmx_list_group_accessory=0x7f0d005b;
+        public static int cmx_list_group_image=0x7f0d0059;
+        public static int cmx_list_group_root_layout=0x7f0d0058;
+        public static int cmx_list_group_title=0x7f0d005a;
+        public static int cmx_list_header_current_location_accessory=0x7f0d0060;
+        public static int cmx_list_header_current_location_imageView=0x7f0d005e;
+        public static int cmx_list_header_current_location_layout=0x7f0d005d;
+        public static int cmx_list_header_current_location_title=0x7f0d005f;
+        public static int cmx_list_header_root_layout=0x7f0d005c;
+        public static int cmx_list_header_section_title=0x7f0d0061;
+        public static int cmx_list_root_layout=0x7f0d0062;
+        public static int cmx_main_root_layout=0x7f0d0047;
+        public static int cmx_poi_action_layout=0x7f0d0068;
+        public static int cmx_poi_description_title=0x7f0d006c;
+        public static int cmx_poi_goto_button=0x7f0d006a;
+        public static int cmx_poi_goto_layout=0x7f0d0069;
+        public static int cmx_poi_goto_title=0x7f0d006b;
+        public static int cmx_poi_login_button=0x7f0d006e;
+        public static int cmx_poi_more_infos_title=0x7f0d006d;
+        public static int cmx_poi_root_layout=0x7f0d0064;
+        public static int cmx_poi_title=0x7f0d0067;
+        public static int cmx_poi_title_image=0x7f0d0066;
+        public static int cmx_poi_title_layout=0x7f0d0065;
+        public static int cmx_search_item_goto_button=0x7f0d0070;
+        public static int cmx_search_item_root_layout=0x7f0d006f;
+        public static int cmx_search_item_title=0x7f0d0071;
+        public static int cmx_search_list_view=0x7f0d0074;
+        public static int cmx_search_progressbar=0x7f0d0075;
+        public static int cmx_search_root_layout=0x7f0d0072;
+        public static int cmx_search_view=0x7f0d0073;
+        public static int cmx_share_dialog_login_button=0x7f0d0076;
+        public static int collapseActionView=0x7f0d0013;
+        public static int com_facebook_login_activity_progress_bar=0x7f0d0079;
+        public static int com_facebook_picker_activity_circle=0x7f0d0078;
+        public static int com_facebook_picker_checkbox=0x7f0d007b;
+        public static int com_facebook_picker_checkbox_stub=0x7f0d007f;
+        public static int com_facebook_picker_divider=0x7f0d0083;
+        public static int com_facebook_picker_done_button=0x7f0d0082;
+        public static int com_facebook_picker_image=0x7f0d007c;
+        public static int com_facebook_picker_list_section_header=0x7f0d0080;
+        public static int com_facebook_picker_list_view=0x7f0d0077;
+        public static int com_facebook_picker_profile_pic_stub=0x7f0d007d;
+        public static int com_facebook_picker_row_activity_circle=0x7f0d007a;
+        public static int com_facebook_picker_search_text=0x7f0d0088;
+        public static int com_facebook_picker_title=0x7f0d007e;
+        public static int com_facebook_picker_title_bar=0x7f0d0085;
+        public static int com_facebook_picker_title_bar_stub=0x7f0d0084;
+        public static int com_facebook_picker_top_bar=0x7f0d0081;
+        public static int com_facebook_search_bar_view=0x7f0d0087;
+        public static int com_facebook_usersettingsfragment_login_button=0x7f0d008b;
+        public static int com_facebook_usersettingsfragment_logo_image=0x7f0d0089;
+        public static int com_facebook_usersettingsfragment_profile_name=0x7f0d008a;
+        public static int default_activity_button=0x7f0d0032;
+        public static int dialog=0x7f0d0017;
+        public static int disableHome=0x7f0d000c;
+        public static int dropdown=0x7f0d0018;
+        public static int edit_query=0x7f0d003a;
+        public static int end=0x7f0d001a;
+        public static int expand_activities_button=0x7f0d0030;
+        public static int expanded_menu=0x7f0d0036;
+        public static int fullscreen=0x7f0d001f;
+        public static int home=0x7f0d0000;
+        public static int homeAsUp=0x7f0d000d;
+        public static int hybrid=0x7f0d0021;
+        public static int icon=0x7f0d0034;
+        public static int ifRoom=0x7f0d0014;
+        public static int image=0x7f0d0031;
+        public static int large=0x7f0d0007;
+        public static int left=0x7f0d001d;
+        public static int listMode=0x7f0d000a;
+        public static int list_child_root_layout=0x7f0d004f;
+        public static int list_item=0x7f0d0033;
+        public static int margin=0x7f0d0020;
+        public static int menu_refresh=0x7f0d008d;
+        public static int menu_search=0x7f0d008f;
+        public static int middle=0x7f0d001b;
+        public static int never=0x7f0d0015;
+        public static int none=0x7f0d001c;
+        public static int normal=0x7f0d0008;
+        public static int picker_subtitle=0x7f0d0086;
+        public static int progress_circular=0x7f0d0004;
+        public static int progress_horizontal=0x7f0d0005;
+        public static int radio=0x7f0d0039;
+        public static int right=0x7f0d001e;
+        public static int satellite=0x7f0d0022;
+        public static int search_badge=0x7f0d003c;
+        public static int search_bar=0x7f0d003b;
+        public static int search_button=0x7f0d003d;
+        public static int search_close_btn=0x7f0d0042;
+        public static int search_edit_frame=0x7f0d003e;
+        public static int search_go_btn=0x7f0d0044;
+        public static int search_mag_icon=0x7f0d003f;
+        public static int search_plate=0x7f0d0040;
+        public static int search_src_text=0x7f0d0041;
+        public static int search_voice_btn=0x7f0d0045;
+        public static int selected_view=0x7f0d0006;
+        public static int shortcut=0x7f0d0038;
+        public static int showCustom=0x7f0d000e;
+        public static int showHome=0x7f0d000f;
+        public static int showTitle=0x7f0d0010;
+        public static int slidingmenumain=0x7f0d008c;
+        public static int small=0x7f0d0009;
+        public static int split_action_bar=0x7f0d0028;
+        public static int submit_area=0x7f0d0043;
+        public static int tabMode=0x7f0d000b;
+        public static int terrain=0x7f0d0023;
+        public static int title=0x7f0d0035;
+        public static int top_action_bar=0x7f0d002a;
+        public static int up=0x7f0d002b;
+        public static int useLogo=0x7f0d0011;
+        public static int withText=0x7f0d0016;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1639,7 +1639,7 @@ containing a value of this type.
          an action bar/action mode. This will be used to determine how many
          showAsAction="ifRoom" items can fit. "always" items can override this. 
          */
-        public static int abc_max_action_buttons=0x7f0d0000;
+        public static int abc_max_action_buttons=0x7f0c0000;
     }
     public static final class layout {
         public static int abc_action_bar_decor=0x7f030000;
@@ -1701,233 +1701,233 @@ containing a value of this type.
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
-        public static int abc_action_bar_home_description=0x7f0a001a;
+        public static int abc_action_bar_home_description=0x7f09001a;
         /**  Content description for the action bar "up" affordance. [CHAR LIMIT=NONE] 
          */
-        public static int abc_action_bar_up_description=0x7f0a001b;
+        public static int abc_action_bar_up_description=0x7f09001b;
         /**  Content description for the action menu overflow button. [CHAR LIMIT=NONE] 
          */
-        public static int abc_action_menu_overflow_description=0x7f0a001c;
+        public static int abc_action_menu_overflow_description=0x7f09001c;
         /**  Label for the "Done" button on the far left of action mode toolbars. 
          */
-        public static int abc_action_mode_done=0x7f0a0019;
+        public static int abc_action_mode_done=0x7f090019;
         /**  Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] 
          */
-        public static int abc_activity_chooser_view_see_all=0x7f0a0023;
+        public static int abc_activity_chooser_view_see_all=0x7f090023;
         /**  ActivityChooserView - accessibility support 
  Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] 
          */
-        public static int abc_activitychooserview_choose_application=0x7f0a0022;
+        public static int abc_activitychooserview_choose_application=0x7f090022;
         /**  SearchView accessibility description for clear button [CHAR LIMIT=NONE] 
          */
-        public static int abc_searchview_description_clear=0x7f0a001f;
+        public static int abc_searchview_description_clear=0x7f09001f;
         /**  SearchView accessibility description for search text field [CHAR LIMIT=NONE] 
          */
-        public static int abc_searchview_description_query=0x7f0a001e;
+        public static int abc_searchview_description_query=0x7f09001e;
         /**  SearchView accessibility description for search button [CHAR LIMIT=NONE] 
          */
-        public static int abc_searchview_description_search=0x7f0a001d;
+        public static int abc_searchview_description_search=0x7f09001d;
         /**  SearchView accessibility description for submit button [CHAR LIMIT=NONE] 
          */
-        public static int abc_searchview_description_submit=0x7f0a0020;
+        public static int abc_searchview_description_submit=0x7f090020;
         /**  SearchView accessibility description for voice button [CHAR LIMIT=NONE] 
          */
-        public static int abc_searchview_description_voice=0x7f0a0021;
+        public static int abc_searchview_description_voice=0x7f090021;
         /**  Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static int abc_shareactionprovider_share_with=0x7f0a0025;
+        public static int abc_shareactionprovider_share_with=0x7f090025;
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static int abc_shareactionprovider_share_with_application=0x7f0a0024;
-        public static int action_feedback=0x7f0a004c;
-        public static int app_name=0x7f0a003f;
+        public static int abc_shareactionprovider_share_with_application=0x7f090024;
+        public static int action_feedback=0x7f09004c;
+        public static int app_name=0x7f09003f;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
          */
-        public static int auth_client_needs_enabling_title=0x7f0a003a;
+        public static int auth_client_needs_enabling_title=0x7f09003a;
         /**   Title for notification shown when GooglePlayServices needs to be
         installed for a application to work. [CHAR LIMIT=70] 
          */
-        public static int auth_client_needs_installation_title=0x7f0a003b;
+        public static int auth_client_needs_installation_title=0x7f09003b;
         /**   Title for notification shown when GooglePlayServices needs to be
         udpated for a application to work. [CHAR LIMIT=70] 
          */
-        public static int auth_client_needs_update_title=0x7f0a003c;
+        public static int auth_client_needs_update_title=0x7f09003c;
         /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
          */
-        public static int auth_client_play_services_err_notification_msg=0x7f0a003d;
+        public static int auth_client_play_services_err_notification_msg=0x7f09003d;
         /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
          */
-        public static int auth_client_requested_by_msg=0x7f0a003e;
+        public static int auth_client_requested_by_msg=0x7f09003e;
         /**   Title for notification shown when a bad version of GooglePlayServices
         has been installed and needs correction for an application to work.
         [CHAR LIMIT=70] 
          */
-        public static int auth_client_using_bad_version_title=0x7f0a0039;
-        public static int cmx_cancel_dialog_bt=0x7f0a004e;
-        public static int cmx_checkin_twitter_message=0x7f0a0069;
-        public static int cmx_cmx_registration_failed_exception=0x7f0a005f;
-        public static int cmx_confirm_feedback_view=0x7f0a005a;
-        public static int cmx_connect_manually_to_venue_wifi_dialog_msg=0x7f0a0055;
-        public static int cmx_connect_to_venue_wifi_dialog_msg=0x7f0a0054;
-        public static int cmx_default_settings_push_notification_enabled=0x7f0a0065;
+        public static int auth_client_using_bad_version_title=0x7f090039;
+        public static int cmx_cancel_dialog_bt=0x7f09004e;
+        public static int cmx_checkin_twitter_message=0x7f090069;
+        public static int cmx_cmx_registration_failed_exception=0x7f09005f;
+        public static int cmx_confirm_feedback_view=0x7f09005a;
+        public static int cmx_connect_manually_to_venue_wifi_dialog_msg=0x7f090055;
+        public static int cmx_connect_to_venue_wifi_dialog_msg=0x7f090054;
+        public static int cmx_default_settings_push_notification_enabled=0x7f090065;
         /**  Dialog title 
          */
-        public static int cmx_error_dialog_title=0x7f0a0048;
+        public static int cmx_error_dialog_title=0x7f090048;
         /**  Exception 
          */
-        public static int cmx_gcm_registration_failed_exception=0x7f0a005e;
-        public static int cmx_information_dialog_title=0x7f0a004a;
+        public static int cmx_gcm_registration_failed_exception=0x7f09005e;
+        public static int cmx_information_dialog_title=0x7f09004a;
         /**  List entries title 
          */
-        public static int cmx_list_current_location_title=0x7f0a0043;
-        public static int cmx_list_miscellaneous_settings_title=0x7f0a0047;
-        public static int cmx_list_miscellaneous_title=0x7f0a0046;
-        public static int cmx_list_no_current_location_title=0x7f0a0044;
-        public static int cmx_list_venues_floors_title=0x7f0a0045;
-        public static int cmx_menu_refresh=0x7f0a0042;
+        public static int cmx_list_current_location_title=0x7f090043;
+        public static int cmx_list_miscellaneous_settings_title=0x7f090047;
+        public static int cmx_list_miscellaneous_title=0x7f090046;
+        public static int cmx_list_no_current_location_title=0x7f090044;
+        public static int cmx_list_venues_floors_title=0x7f090045;
+        public static int cmx_menu_refresh=0x7f090042;
         /**  Menu item 
          */
-        public static int cmx_menu_search=0x7f0a0041;
-        public static int cmx_no_dialog_bt=0x7f0a0050;
-        public static int cmx_no_geolocalisation_available_direction_disabled_dialog_msg=0x7f0a0059;
-        public static int cmx_no_venue_data_configured=0x7f0a0053;
-        public static int cmx_no_venue_wifi_use_google_maps_dialog_msg=0x7f0a0056;
+        public static int cmx_menu_search=0x7f090041;
+        public static int cmx_no_dialog_bt=0x7f090050;
+        public static int cmx_no_geolocalisation_available_direction_disabled_dialog_msg=0x7f090059;
+        public static int cmx_no_venue_data_configured=0x7f090053;
+        public static int cmx_no_venue_wifi_use_google_maps_dialog_msg=0x7f090056;
         /**  Dialog button 
          */
-        public static int cmx_ok_dialog_bt=0x7f0a004d;
-        public static int cmx_poi_description=0x7f0a0062;
-        public static int cmx_poi_goto_button=0x7f0a0061;
-        public static int cmx_poi_more_info=0x7f0a0063;
+        public static int cmx_ok_dialog_bt=0x7f09004d;
+        public static int cmx_poi_description=0x7f090062;
+        public static int cmx_poi_goto_button=0x7f090061;
+        public static int cmx_poi_more_info=0x7f090063;
         /**  Poi Layout 
          */
-        public static int cmx_poi_share_button=0x7f0a0060;
+        public static int cmx_poi_share_button=0x7f090060;
         /**  Share 
          */
-        public static int cmx_poi_share_facebook=0x7f0a0066;
-        public static int cmx_poi_share_facebook_app_id=0x7f0a006a;
-        public static int cmx_poi_share_facebook_failed=0x7f0a006f;
-        public static int cmx_poi_share_facebook_succeed=0x7f0a006e;
-        public static int cmx_poi_share_start_publish=0x7f0a006d;
-        public static int cmx_poi_share_title=0x7f0a004b;
-        public static int cmx_poi_share_twitter=0x7f0a0067;
-        public static int cmx_poi_share_twitter_consummer_key=0x7f0a006b;
-        public static int cmx_poi_share_twitter_consummer_secret=0x7f0a006c;
-        public static int cmx_poi_share_twitter_failed=0x7f0a0071;
-        public static int cmx_poi_share_twitter_succeed=0x7f0a0070;
-        public static int cmx_posting_new_user_location=0x7f0a005b;
-        public static int cmx_posting_new_user_location_failed=0x7f0a005d;
-        public static int cmx_posting_new_user_location_success=0x7f0a005c;
-        public static int cmx_registration_failed_dialog_msg=0x7f0a0057;
+        public static int cmx_poi_share_facebook=0x7f090066;
+        public static int cmx_poi_share_facebook_app_id=0x7f09006a;
+        public static int cmx_poi_share_facebook_failed=0x7f09006f;
+        public static int cmx_poi_share_facebook_succeed=0x7f09006e;
+        public static int cmx_poi_share_start_publish=0x7f09006d;
+        public static int cmx_poi_share_title=0x7f09004b;
+        public static int cmx_poi_share_twitter=0x7f090067;
+        public static int cmx_poi_share_twitter_consummer_key=0x7f09006b;
+        public static int cmx_poi_share_twitter_consummer_secret=0x7f09006c;
+        public static int cmx_poi_share_twitter_failed=0x7f090071;
+        public static int cmx_poi_share_twitter_succeed=0x7f090070;
+        public static int cmx_posting_new_user_location=0x7f09005b;
+        public static int cmx_posting_new_user_location_failed=0x7f09005d;
+        public static int cmx_posting_new_user_location_success=0x7f09005c;
+        public static int cmx_registration_failed_dialog_msg=0x7f090057;
         /**  Search 
          */
-        public static int cmx_search_query_hint=0x7f0a0072;
+        public static int cmx_search_query_hint=0x7f090072;
         /**  Settings 
          */
-        public static int cmx_settings_push_notification_enabled=0x7f0a0064;
-        public static int cmx_share_dialog_title=0x7f0a0068;
+        public static int cmx_settings_push_notification_enabled=0x7f090064;
+        public static int cmx_share_dialog_title=0x7f090068;
         /**  Simulation 
          */
-        public static int cmx_simulation_mac_address=0x7f0a0040;
-        public static int cmx_warning_dialog_title=0x7f0a0049;
-        public static int cmx_wifi_disabled_dialog_msg=0x7f0a0058;
+        public static int cmx_simulation_mac_address=0x7f090040;
+        public static int cmx_warning_dialog_title=0x7f090049;
+        public static int cmx_wifi_disabled_dialog_msg=0x7f090058;
         /**  Dialog message 
          */
-        public static int cmx_wifi_network=0x7f0a0051;
-        public static int cmx_wifi_network_password=0x7f0a0052;
-        public static int cmx_yes_dialog_bt=0x7f0a004f;
-        public static int com_facebook_choose_friends=0x7f0a000f;
-        public static int com_facebook_dialogloginactivity_ok_button=0x7f0a0000;
-        public static int com_facebook_internet_permission_error_message=0x7f0a0013;
-        public static int com_facebook_internet_permission_error_title=0x7f0a0012;
-        public static int com_facebook_loading=0x7f0a0011;
-        public static int com_facebook_loginview_cancel_action=0x7f0a0006;
-        public static int com_facebook_loginview_log_in_button=0x7f0a0002;
-        public static int com_facebook_loginview_log_out_action=0x7f0a0005;
-        public static int com_facebook_loginview_log_out_button=0x7f0a0001;
-        public static int com_facebook_loginview_logged_in_as=0x7f0a0003;
-        public static int com_facebook_loginview_logged_in_using_facebook=0x7f0a0004;
-        public static int com_facebook_logo_content_description=0x7f0a0007;
-        public static int com_facebook_nearby=0x7f0a0010;
-        public static int com_facebook_picker_done_button_text=0x7f0a000e;
-        public static int com_facebook_placepicker_subtitle_catetory_only_format=0x7f0a000c;
-        public static int com_facebook_placepicker_subtitle_format=0x7f0a000b;
-        public static int com_facebook_placepicker_subtitle_were_here_only_format=0x7f0a000d;
-        public static int com_facebook_requesterror_password_changed=0x7f0a0016;
-        public static int com_facebook_requesterror_permissions=0x7f0a0018;
-        public static int com_facebook_requesterror_reconnect=0x7f0a0017;
-        public static int com_facebook_requesterror_relogin=0x7f0a0015;
-        public static int com_facebook_requesterror_web_login=0x7f0a0014;
-        public static int com_facebook_usersettingsfragment_log_in_button=0x7f0a0008;
-        public static int com_facebook_usersettingsfragment_logged_in=0x7f0a0009;
-        public static int com_facebook_usersettingsfragment_not_logged_in=0x7f0a000a;
+        public static int cmx_wifi_network=0x7f090051;
+        public static int cmx_wifi_network_password=0x7f090052;
+        public static int cmx_yes_dialog_bt=0x7f09004f;
+        public static int com_facebook_choose_friends=0x7f09000f;
+        public static int com_facebook_dialogloginactivity_ok_button=0x7f090000;
+        public static int com_facebook_internet_permission_error_message=0x7f090013;
+        public static int com_facebook_internet_permission_error_title=0x7f090012;
+        public static int com_facebook_loading=0x7f090011;
+        public static int com_facebook_loginview_cancel_action=0x7f090006;
+        public static int com_facebook_loginview_log_in_button=0x7f090002;
+        public static int com_facebook_loginview_log_out_action=0x7f090005;
+        public static int com_facebook_loginview_log_out_button=0x7f090001;
+        public static int com_facebook_loginview_logged_in_as=0x7f090003;
+        public static int com_facebook_loginview_logged_in_using_facebook=0x7f090004;
+        public static int com_facebook_logo_content_description=0x7f090007;
+        public static int com_facebook_nearby=0x7f090010;
+        public static int com_facebook_picker_done_button_text=0x7f09000e;
+        public static int com_facebook_placepicker_subtitle_catetory_only_format=0x7f09000c;
+        public static int com_facebook_placepicker_subtitle_format=0x7f09000b;
+        public static int com_facebook_placepicker_subtitle_were_here_only_format=0x7f09000d;
+        public static int com_facebook_requesterror_password_changed=0x7f090016;
+        public static int com_facebook_requesterror_permissions=0x7f090018;
+        public static int com_facebook_requesterror_reconnect=0x7f090017;
+        public static int com_facebook_requesterror_relogin=0x7f090015;
+        public static int com_facebook_requesterror_web_login=0x7f090014;
+        public static int com_facebook_usersettingsfragment_log_in_button=0x7f090008;
+        public static int com_facebook_usersettingsfragment_logged_in=0x7f090009;
+        public static int com_facebook_usersettingsfragment_not_logged_in=0x7f09000a;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_enable_button=0x7f0a002c;
+        public static int common_google_play_services_enable_button=0x7f09002c;
         /**  Message in confirmation dialog informing user they need to enable
         Google Play services in application settings [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_enable_text=0x7f0a002b;
+        public static int common_google_play_services_enable_text=0x7f09002b;
         /**  Title of confirmation dialog informing user they need to enable
         Google Play services in application settings [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_enable_title=0x7f0a002a;
+        public static int common_google_play_services_enable_title=0x7f09002a;
         /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_install_button=0x7f0a0029;
+        public static int common_google_play_services_install_button=0x7f090029;
         /**  (For phones) Message in confirmation dialog informing user that
         they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_install_text_phone=0x7f0a0027;
+        public static int common_google_play_services_install_text_phone=0x7f090027;
         /**  (For tablets) Message in confirmation dialog informing user that
         they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_install_text_tablet=0x7f0a0028;
+        public static int common_google_play_services_install_text_tablet=0x7f090028;
         /**  Title of confirmation dialog informing user that they need to install
         Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_install_title=0x7f0a0026;
+        public static int common_google_play_services_install_title=0x7f090026;
         /**  Message in confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_invalid_account_text=0x7f0a0032;
+        public static int common_google_play_services_invalid_account_text=0x7f090032;
         /**  Title of confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_invalid_account_title=0x7f0a0031;
+        public static int common_google_play_services_invalid_account_title=0x7f090031;
         /**  Message in confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_network_error_text=0x7f0a0030;
+        public static int common_google_play_services_network_error_text=0x7f090030;
         /**  Title of confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_network_error_title=0x7f0a002f;
+        public static int common_google_play_services_network_error_title=0x7f09002f;
         /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
         services [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_unknown_issue=0x7f0a0033;
+        public static int common_google_play_services_unknown_issue=0x7f090033;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_unsupported_text=0x7f0a0035;
+        public static int common_google_play_services_unsupported_text=0x7f090035;
         /**  Title of confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_unsupported_title=0x7f0a0034;
+        public static int common_google_play_services_unsupported_title=0x7f090034;
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_update_button=0x7f0a0036;
+        public static int common_google_play_services_update_button=0x7f090036;
         /**  Message in confirmation dialog informing user that they need to update
         Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
-        public static int common_google_play_services_update_text=0x7f0a002e;
+        public static int common_google_play_services_update_text=0x7f09002e;
         /**  Title of confirmation dialog informing user that they need to update
         Google Play services (from Play Store) [CHAR LIMIT=40] 
          */
-        public static int common_google_play_services_update_title=0x7f0a002d;
+        public static int common_google_play_services_update_title=0x7f09002d;
         /**  Sign-in button text [CHAR LIMIT=15] 
          */
-        public static int common_signin_button_text=0x7f0a0037;
+        public static int common_signin_button_text=0x7f090037;
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
-        public static int common_signin_button_text_long=0x7f0a0038;
+        public static int common_signin_button_text_long=0x7f090038;
     }
     public static final class style {
         /** 
@@ -1935,61 +1935,61 @@ containing a value of this type.
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
          */
-        public static int AppBaseTheme=0x7f0b0085;
+        public static int AppBaseTheme=0x7f0a0085;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static int AppTheme=0x7f0b0086;
+        public static int AppTheme=0x7f0a0086;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
-        public static int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0065;
-        public static int TextAppearance_AppCompat_Base_SearchResult=0x7f0b006f;
-        public static int TextAppearance_AppCompat_Base_SearchResult_Subtitle=0x7f0b0071;
+        public static int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0a0065;
+        public static int TextAppearance_AppCompat_Base_SearchResult=0x7f0a006f;
+        public static int TextAppearance_AppCompat_Base_SearchResult_Subtitle=0x7f0a0071;
         /**  Search View result styles 
          */
-        public static int TextAppearance_AppCompat_Base_SearchResult_Title=0x7f0b0070;
-        public static int TextAppearance_AppCompat_Base_Widget_PopupMenu_Large=0x7f0b006b;
-        public static int TextAppearance_AppCompat_Base_Widget_PopupMenu_Small=0x7f0b006c;
-        public static int TextAppearance_AppCompat_Light_Base_SearchResult=0x7f0b0072;
-        public static int TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle=0x7f0b0074;
+        public static int TextAppearance_AppCompat_Base_SearchResult_Title=0x7f0a0070;
+        public static int TextAppearance_AppCompat_Base_Widget_PopupMenu_Large=0x7f0a006b;
+        public static int TextAppearance_AppCompat_Base_Widget_PopupMenu_Small=0x7f0a006c;
+        public static int TextAppearance_AppCompat_Light_Base_SearchResult=0x7f0a0072;
+        public static int TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle=0x7f0a0074;
         /** 
         TextAppearance.Holo.Light.SearchResult.* are private so we extend from the default
         versions instead (which are exactly the same).
     
          */
-        public static int TextAppearance_AppCompat_Light_Base_SearchResult_Title=0x7f0b0073;
-        public static int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large=0x7f0b006d;
-        public static int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small=0x7f0b006e;
-        public static int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b0037;
-        public static int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b0036;
-        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0032;
-        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0033;
-        public static int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0035;
-        public static int TextAppearance_AppCompat_SearchResult_Title=0x7f0b0034;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b001c;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0008;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b000a;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0007;
-        public static int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0009;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0020;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b0022;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b001f;
-        public static int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b0021;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Menu=0x7f0b0056;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle=0x7f0b0058;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse=0x7f0b005a;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Title=0x7f0b0057;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse=0x7f0b0059;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle=0x7f0b0053;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse=0x7f0b0055;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Title=0x7f0b0052;
-        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse=0x7f0b0054;
-        public static int TextAppearance_AppCompat_Widget_Base_DropDownItem=0x7f0b0063;
-        public static int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0023;
-        public static int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0030;
-        public static int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0031;
-        public static int TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item=0x7f0b0064;
-        public static int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b002a;
+        public static int TextAppearance_AppCompat_Light_Base_SearchResult_Title=0x7f0a0073;
+        public static int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large=0x7f0a006d;
+        public static int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small=0x7f0a006e;
+        public static int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0a0037;
+        public static int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0a0036;
+        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0a0032;
+        public static int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0a0033;
+        public static int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0a0035;
+        public static int TextAppearance_AppCompat_SearchResult_Title=0x7f0a0034;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0a001c;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0a0008;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0a000a;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0a0007;
+        public static int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0a0009;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0a0020;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0a0022;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0a001f;
+        public static int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0a0021;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Menu=0x7f0a0056;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle=0x7f0a0058;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse=0x7f0a005a;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Title=0x7f0a0057;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse=0x7f0a0059;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle=0x7f0a0053;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse=0x7f0a0055;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Title=0x7f0a0052;
+        public static int TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse=0x7f0a0054;
+        public static int TextAppearance_AppCompat_Widget_Base_DropDownItem=0x7f0a0063;
+        public static int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0a0023;
+        public static int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0a0030;
+        public static int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0a0031;
+        public static int TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item=0x7f0a0064;
+        public static int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0a002a;
         /**  Themes in the "Theme.AppCompat" family will contain an action bar by default.
          If Holo themes are available on the current platform version they will be used.
          A limited Holo-styled action bar will be provided on platform versions older
@@ -2000,135 +2000,135 @@ containing a value of this type.
          "Theme.Base" theme. 
  Platform-independent theme providing an action bar in a dark-themed activity. 
          */
-        public static int Theme_AppCompat=0x7f0b0079;
+        public static int Theme_AppCompat=0x7f0a0079;
         /**  Menu/item attributes 
          */
-        public static int Theme_AppCompat_Base_CompactMenu=0x7f0b0083;
-        public static int Theme_AppCompat_Base_CompactMenu_Dialog=0x7f0b0084;
+        public static int Theme_AppCompat_Base_CompactMenu=0x7f0a0083;
+        public static int Theme_AppCompat_Base_CompactMenu_Dialog=0x7f0a0084;
         /**  Menu/item attributes 
          */
-        public static int Theme_AppCompat_CompactMenu=0x7f0b007c;
-        public static int Theme_AppCompat_CompactMenu_Dialog=0x7f0b007d;
+        public static int Theme_AppCompat_CompactMenu=0x7f0a007c;
+        public static int Theme_AppCompat_CompactMenu_Dialog=0x7f0a007d;
         /**  Platform-independent theme providing an action bar in a light-themed activity. 
          */
-        public static int Theme_AppCompat_Light=0x7f0b007a;
+        public static int Theme_AppCompat_Light=0x7f0a007a;
         /**  Platform-independent theme providing an action bar in a dark-themed activity. 
          */
-        public static int Theme_AppCompat_Light_DarkActionBar=0x7f0b007b;
+        public static int Theme_AppCompat_Light_DarkActionBar=0x7f0a007b;
         /**  Base platform-dependent theme  
          */
-        public static int Theme_Base=0x7f0b007e;
+        public static int Theme_Base=0x7f0a007e;
         /**  Base platform-dependent theme providing an action bar in a dark-themed activity. 
  Base platform-dependent theme providing an action bar in a dark-themed activity. 
          */
-        public static int Theme_Base_AppCompat=0x7f0b0080;
+        public static int Theme_Base_AppCompat=0x7f0a0080;
         /**  Base platform-dependent theme providing an action bar in a light-themed activity. 
  Base platform-dependent theme providing an action bar in a light-themed activity. 
          */
-        public static int Theme_Base_AppCompat_Light=0x7f0b0081;
+        public static int Theme_Base_AppCompat_Light=0x7f0a0081;
         /**  Base platform-dependent theme providing a dark action bar in a light-themed activity. 
  Base platform-dependent theme providing a dark action bar in a light-themed activity. 
          */
-        public static int Theme_Base_AppCompat_Light_DarkActionBar=0x7f0b0082;
+        public static int Theme_Base_AppCompat_Light_DarkActionBar=0x7f0a0082;
         /**  Base platform-dependent theme providing a light-themed activity. 
          */
-        public static int Theme_Base_Light=0x7f0b007f;
+        public static int Theme_Base_Light=0x7f0a007f;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the Base styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
          */
-        public static int Widget_AppCompat_ActionBar=0x7f0b0002;
-        public static int Widget_AppCompat_ActionBar_Solid=0x7f0b0004;
-        public static int Widget_AppCompat_ActionBar_TabBar=0x7f0b0013;
-        public static int Widget_AppCompat_ActionBar_TabText=0x7f0b0019;
-        public static int Widget_AppCompat_ActionBar_TabView=0x7f0b0016;
-        public static int Widget_AppCompat_ActionButton=0x7f0b000d;
-        public static int Widget_AppCompat_ActionButton_CloseMode=0x7f0b000f;
-        public static int Widget_AppCompat_ActionButton_Overflow=0x7f0b0011;
-        public static int Widget_AppCompat_ActionMode=0x7f0b001d;
-        public static int Widget_AppCompat_ActivityChooserView=0x7f0b003a;
-        public static int Widget_AppCompat_AutoCompleteTextView=0x7f0b0038;
-        public static int Widget_AppCompat_Base_ActionBar=0x7f0b003c;
-        public static int Widget_AppCompat_Base_ActionBar_Solid=0x7f0b003e;
-        public static int Widget_AppCompat_Base_ActionBar_TabBar=0x7f0b0047;
-        public static int Widget_AppCompat_Base_ActionBar_TabText=0x7f0b004d;
-        public static int Widget_AppCompat_Base_ActionBar_TabView=0x7f0b004a;
+        public static int Widget_AppCompat_ActionBar=0x7f0a0002;
+        public static int Widget_AppCompat_ActionBar_Solid=0x7f0a0004;
+        public static int Widget_AppCompat_ActionBar_TabBar=0x7f0a0013;
+        public static int Widget_AppCompat_ActionBar_TabText=0x7f0a0019;
+        public static int Widget_AppCompat_ActionBar_TabView=0x7f0a0016;
+        public static int Widget_AppCompat_ActionButton=0x7f0a000d;
+        public static int Widget_AppCompat_ActionButton_CloseMode=0x7f0a000f;
+        public static int Widget_AppCompat_ActionButton_Overflow=0x7f0a0011;
+        public static int Widget_AppCompat_ActionMode=0x7f0a001d;
+        public static int Widget_AppCompat_ActivityChooserView=0x7f0a003a;
+        public static int Widget_AppCompat_AutoCompleteTextView=0x7f0a0038;
+        public static int Widget_AppCompat_Base_ActionBar=0x7f0a003c;
+        public static int Widget_AppCompat_Base_ActionBar_Solid=0x7f0a003e;
+        public static int Widget_AppCompat_Base_ActionBar_TabBar=0x7f0a0047;
+        public static int Widget_AppCompat_Base_ActionBar_TabText=0x7f0a004d;
+        public static int Widget_AppCompat_Base_ActionBar_TabView=0x7f0a004a;
         /**  Action Button Styles 
          */
-        public static int Widget_AppCompat_Base_ActionButton=0x7f0b0041;
-        public static int Widget_AppCompat_Base_ActionButton_CloseMode=0x7f0b0043;
-        public static int Widget_AppCompat_Base_ActionButton_Overflow=0x7f0b0045;
-        public static int Widget_AppCompat_Base_ActionMode=0x7f0b0050;
-        public static int Widget_AppCompat_Base_ActivityChooserView=0x7f0b0077;
+        public static int Widget_AppCompat_Base_ActionButton=0x7f0a0041;
+        public static int Widget_AppCompat_Base_ActionButton_CloseMode=0x7f0a0043;
+        public static int Widget_AppCompat_Base_ActionButton_Overflow=0x7f0a0045;
+        public static int Widget_AppCompat_Base_ActionMode=0x7f0a0050;
+        public static int Widget_AppCompat_Base_ActivityChooserView=0x7f0a0077;
         /**  AutoCompleteTextView styles (for SearchView) 
          */
-        public static int Widget_AppCompat_Base_AutoCompleteTextView=0x7f0b0075;
-        public static int Widget_AppCompat_Base_DropDownItem_Spinner=0x7f0b005f;
+        public static int Widget_AppCompat_Base_AutoCompleteTextView=0x7f0a0075;
+        public static int Widget_AppCompat_Base_DropDownItem_Spinner=0x7f0a005f;
         /**  Popup Menu 
          */
-        public static int Widget_AppCompat_Base_ListPopupWindow=0x7f0b0067;
+        public static int Widget_AppCompat_Base_ListPopupWindow=0x7f0a0067;
         /**  Spinner Widgets 
          */
-        public static int Widget_AppCompat_Base_ListView_DropDown=0x7f0b0061;
-        public static int Widget_AppCompat_Base_ListView_Menu=0x7f0b0066;
-        public static int Widget_AppCompat_Base_PopupMenu=0x7f0b0069;
-        public static int Widget_AppCompat_Base_ProgressBar=0x7f0b005c;
+        public static int Widget_AppCompat_Base_ListView_DropDown=0x7f0a0061;
+        public static int Widget_AppCompat_Base_ListView_Menu=0x7f0a0066;
+        public static int Widget_AppCompat_Base_PopupMenu=0x7f0a0069;
+        public static int Widget_AppCompat_Base_ProgressBar=0x7f0a005c;
         /**  Progress Bar 
          */
-        public static int Widget_AppCompat_Base_ProgressBar_Horizontal=0x7f0b005b;
+        public static int Widget_AppCompat_Base_ProgressBar_Horizontal=0x7f0a005b;
         /**  Action Bar Spinner Widgets 
          */
-        public static int Widget_AppCompat_Base_Spinner=0x7f0b005d;
-        public static int Widget_AppCompat_DropDownItem_Spinner=0x7f0b0026;
-        public static int Widget_AppCompat_Light_ActionBar=0x7f0b0003;
-        public static int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0005;
-        public static int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0006;
-        public static int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0014;
-        public static int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0015;
-        public static int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b001a;
-        public static int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b001b;
-        public static int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0017;
-        public static int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0018;
-        public static int Widget_AppCompat_Light_ActionButton=0x7f0b000e;
-        public static int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b0010;
-        public static int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0012;
-        public static int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b001e;
-        public static int Widget_AppCompat_Light_ActivityChooserView=0x7f0b003b;
-        public static int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0039;
-        public static int Widget_AppCompat_Light_Base_ActionBar=0x7f0b003d;
-        public static int Widget_AppCompat_Light_Base_ActionBar_Solid=0x7f0b003f;
-        public static int Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse=0x7f0b0040;
-        public static int Widget_AppCompat_Light_Base_ActionBar_TabBar=0x7f0b0048;
-        public static int Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse=0x7f0b0049;
-        public static int Widget_AppCompat_Light_Base_ActionBar_TabText=0x7f0b004e;
-        public static int Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse=0x7f0b004f;
-        public static int Widget_AppCompat_Light_Base_ActionBar_TabView=0x7f0b004b;
-        public static int Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse=0x7f0b004c;
-        public static int Widget_AppCompat_Light_Base_ActionButton=0x7f0b0042;
-        public static int Widget_AppCompat_Light_Base_ActionButton_CloseMode=0x7f0b0044;
-        public static int Widget_AppCompat_Light_Base_ActionButton_Overflow=0x7f0b0046;
-        public static int Widget_AppCompat_Light_Base_ActionMode_Inverse=0x7f0b0051;
-        public static int Widget_AppCompat_Light_Base_ActivityChooserView=0x7f0b0078;
-        public static int Widget_AppCompat_Light_Base_AutoCompleteTextView=0x7f0b0076;
-        public static int Widget_AppCompat_Light_Base_DropDownItem_Spinner=0x7f0b0060;
-        public static int Widget_AppCompat_Light_Base_ListPopupWindow=0x7f0b0068;
-        public static int Widget_AppCompat_Light_Base_ListView_DropDown=0x7f0b0062;
-        public static int Widget_AppCompat_Light_Base_PopupMenu=0x7f0b006a;
-        public static int Widget_AppCompat_Light_Base_Spinner=0x7f0b005e;
-        public static int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b0027;
-        public static int Widget_AppCompat_Light_ListPopupWindow=0x7f0b002c;
-        public static int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0029;
-        public static int Widget_AppCompat_Light_PopupMenu=0x7f0b002e;
-        public static int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0025;
-        public static int Widget_AppCompat_ListPopupWindow=0x7f0b002b;
-        public static int Widget_AppCompat_ListView_DropDown=0x7f0b0028;
-        public static int Widget_AppCompat_ListView_Menu=0x7f0b002f;
-        public static int Widget_AppCompat_PopupMenu=0x7f0b002d;
-        public static int Widget_AppCompat_ProgressBar=0x7f0b000c;
-        public static int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b000b;
-        public static int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0024;
-        public static int com_facebook_loginview_default_style=0x7f0b0000;
-        public static int com_facebook_loginview_silver_style=0x7f0b0001;
+        public static int Widget_AppCompat_Base_Spinner=0x7f0a005d;
+        public static int Widget_AppCompat_DropDownItem_Spinner=0x7f0a0026;
+        public static int Widget_AppCompat_Light_ActionBar=0x7f0a0003;
+        public static int Widget_AppCompat_Light_ActionBar_Solid=0x7f0a0005;
+        public static int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0a0006;
+        public static int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0a0014;
+        public static int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0a0015;
+        public static int Widget_AppCompat_Light_ActionBar_TabText=0x7f0a001a;
+        public static int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0a001b;
+        public static int Widget_AppCompat_Light_ActionBar_TabView=0x7f0a0017;
+        public static int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0a0018;
+        public static int Widget_AppCompat_Light_ActionButton=0x7f0a000e;
+        public static int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0a0010;
+        public static int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0a0012;
+        public static int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0a001e;
+        public static int Widget_AppCompat_Light_ActivityChooserView=0x7f0a003b;
+        public static int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0a0039;
+        public static int Widget_AppCompat_Light_Base_ActionBar=0x7f0a003d;
+        public static int Widget_AppCompat_Light_Base_ActionBar_Solid=0x7f0a003f;
+        public static int Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse=0x7f0a0040;
+        public static int Widget_AppCompat_Light_Base_ActionBar_TabBar=0x7f0a0048;
+        public static int Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse=0x7f0a0049;
+        public static int Widget_AppCompat_Light_Base_ActionBar_TabText=0x7f0a004e;
+        public static int Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse=0x7f0a004f;
+        public static int Widget_AppCompat_Light_Base_ActionBar_TabView=0x7f0a004b;
+        public static int Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse=0x7f0a004c;
+        public static int Widget_AppCompat_Light_Base_ActionButton=0x7f0a0042;
+        public static int Widget_AppCompat_Light_Base_ActionButton_CloseMode=0x7f0a0044;
+        public static int Widget_AppCompat_Light_Base_ActionButton_Overflow=0x7f0a0046;
+        public static int Widget_AppCompat_Light_Base_ActionMode_Inverse=0x7f0a0051;
+        public static int Widget_AppCompat_Light_Base_ActivityChooserView=0x7f0a0078;
+        public static int Widget_AppCompat_Light_Base_AutoCompleteTextView=0x7f0a0076;
+        public static int Widget_AppCompat_Light_Base_DropDownItem_Spinner=0x7f0a0060;
+        public static int Widget_AppCompat_Light_Base_ListPopupWindow=0x7f0a0068;
+        public static int Widget_AppCompat_Light_Base_ListView_DropDown=0x7f0a0062;
+        public static int Widget_AppCompat_Light_Base_PopupMenu=0x7f0a006a;
+        public static int Widget_AppCompat_Light_Base_Spinner=0x7f0a005e;
+        public static int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0a0027;
+        public static int Widget_AppCompat_Light_ListPopupWindow=0x7f0a002c;
+        public static int Widget_AppCompat_Light_ListView_DropDown=0x7f0a0029;
+        public static int Widget_AppCompat_Light_PopupMenu=0x7f0a002e;
+        public static int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0a0025;
+        public static int Widget_AppCompat_ListPopupWindow=0x7f0a002b;
+        public static int Widget_AppCompat_ListView_DropDown=0x7f0a0028;
+        public static int Widget_AppCompat_ListView_Menu=0x7f0a002f;
+        public static int Widget_AppCompat_PopupMenu=0x7f0a002d;
+        public static int Widget_AppCompat_ProgressBar=0x7f0a000c;
+        public static int Widget_AppCompat_ProgressBar_Horizontal=0x7f0a000b;
+        public static int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0a0024;
+        public static int com_facebook_loginview_default_style=0x7f0a0000;
+        public static int com_facebook_loginview_silver_style=0x7f0a0001;
     }
     public static final class xml {
         public static int cmx_settings=0x7f060000;
@@ -2206,7 +2206,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:background
         */
-        public static final int ActionBar_background = 10;
+        public static int ActionBar_background = 10;
         /**
           <p>
           @attr description
@@ -2220,7 +2220,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:backgroundSplit
         */
-        public static final int ActionBar_backgroundSplit = 12;
+        public static int ActionBar_backgroundSplit = 12;
         /**
           <p>
           @attr description
@@ -2234,7 +2234,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:backgroundStacked
         */
-        public static final int ActionBar_backgroundStacked = 11;
+        public static int ActionBar_backgroundStacked = 11;
         /**
           <p>
           @attr description
@@ -2246,7 +2246,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:customNavigationLayout
         */
-        public static final int ActionBar_customNavigationLayout = 13;
+        public static int ActionBar_customNavigationLayout = 13;
         /**
           <p>
           @attr description
@@ -2269,7 +2269,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:displayOptions
         */
-        public static final int ActionBar_displayOptions = 3;
+        public static int ActionBar_displayOptions = 3;
         /**
           <p>
           @attr description
@@ -2281,7 +2281,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:divider
         */
-        public static final int ActionBar_divider = 9;
+        public static int ActionBar_divider = 9;
         /**
           <p>
           @attr description
@@ -2299,7 +2299,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:height
         */
-        public static final int ActionBar_height = 1;
+        public static int ActionBar_height = 1;
         /**
           <p>
           @attr description
@@ -2311,7 +2311,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:homeLayout
         */
-        public static final int ActionBar_homeLayout = 14;
+        public static int ActionBar_homeLayout = 14;
         /**
           <p>
           @attr description
@@ -2323,7 +2323,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:icon
         */
-        public static final int ActionBar_icon = 7;
+        public static int ActionBar_icon = 7;
         /**
           <p>
           @attr description
@@ -2335,7 +2335,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:indeterminateProgressStyle
         */
-        public static final int ActionBar_indeterminateProgressStyle = 16;
+        public static int ActionBar_indeterminateProgressStyle = 16;
         /**
           <p>
           @attr description
@@ -2354,7 +2354,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:itemPadding
         */
-        public static final int ActionBar_itemPadding = 18;
+        public static int ActionBar_itemPadding = 18;
         /**
           <p>
           @attr description
@@ -2366,7 +2366,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:logo
         */
-        public static final int ActionBar_logo = 8;
+        public static int ActionBar_logo = 8;
         /**
           <p>
           @attr description
@@ -2386,7 +2386,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:navigationMode
         */
-        public static final int ActionBar_navigationMode = 2;
+        public static int ActionBar_navigationMode = 2;
         /**
           <p>
           @attr description
@@ -2404,7 +2404,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:progressBarPadding
         */
-        public static final int ActionBar_progressBarPadding = 17;
+        public static int ActionBar_progressBarPadding = 17;
         /**
           <p>
           @attr description
@@ -2416,7 +2416,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:progressBarStyle
         */
-        public static final int ActionBar_progressBarStyle = 15;
+        public static int ActionBar_progressBarStyle = 15;
         /**
           <p>
           @attr description
@@ -2432,7 +2432,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:subtitle
         */
-        public static final int ActionBar_subtitle = 4;
+        public static int ActionBar_subtitle = 4;
         /**
           <p>
           @attr description
@@ -2444,7 +2444,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:subtitleTextStyle
         */
-        public static final int ActionBar_subtitleTextStyle = 6;
+        public static int ActionBar_subtitleTextStyle = 6;
         /**
           <p>
           @attr description
@@ -2460,7 +2460,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:title
         */
-        public static final int ActionBar_title = 0;
+        public static int ActionBar_title = 0;
         /**
           <p>
           @attr description
@@ -2472,7 +2472,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:titleTextStyle
         */
-        public static final int ActionBar_titleTextStyle = 5;
+        public static int ActionBar_titleTextStyle = 5;
         /**  Valid LayoutParams for views placed in the action bar as custom views. 
            <p>Includes the following attributes:</p>
            <table>
@@ -2491,7 +2491,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #ActionBarLayout} array.
           @attr name android:layout_gravity
         */
-        public static final int ActionBarLayout_android_layout_gravity = 0;
+        public static int ActionBarLayout_android_layout_gravity = 0;
         /**  These attributes are meant to be specified and customized by the app.
          The system will read and apply them as needed. These attributes control
          properties of the activity window, such as whether an action bar should
@@ -2525,7 +2525,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:windowActionBar
         */
-        public static final int ActionBarWindow_windowActionBar = 0;
+        public static int ActionBarWindow_windowActionBar = 0;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #ActionBarWindow} array.
@@ -2539,7 +2539,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:windowActionBarOverlay
         */
-        public static final int ActionBarWindow_windowActionBarOverlay = 1;
+        public static int ActionBarWindow_windowActionBarOverlay = 1;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#windowSplitActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
@@ -2553,7 +2553,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:windowSplitActionBar
         */
-        public static final int ActionBarWindow_windowSplitActionBar = 2;
+        public static int ActionBarWindow_windowSplitActionBar = 2;
         /** Attributes that can be used with a ActionMenuItemView.
            <p>Includes the following attributes:</p>
            <table>
@@ -2572,7 +2572,7 @@ containing a value of this type.
           attribute's value can be found in the {@link #ActionMenuItemView} array.
           @attr name android:minWidth
         */
-        public static final int ActionMenuItemView_android_minWidth = 0;
+        public static int ActionMenuItemView_android_minWidth = 0;
         /**  Size of padding on either end of a divider. 
          */
         public static final int[] ActionMenuView = {
@@ -2611,7 +2611,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:background
         */
-        public static final int ActionMode_background = 3;
+        public static int ActionMode_background = 3;
         /**
           <p>
           @attr description
@@ -2625,7 +2625,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:backgroundSplit
         */
-        public static final int ActionMode_backgroundSplit = 4;
+        public static int ActionMode_backgroundSplit = 4;
         /**
           <p>
           @attr description
@@ -2643,7 +2643,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:height
         */
-        public static final int ActionMode_height = 0;
+        public static int ActionMode_height = 0;
         /**
           <p>
           @attr description
@@ -2655,7 +2655,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:subtitleTextStyle
         */
-        public static final int ActionMode_subtitleTextStyle = 2;
+        public static int ActionMode_subtitleTextStyle = 2;
         /**
           <p>
           @attr description
@@ -2667,7 +2667,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:titleTextStyle
         */
-        public static final int ActionMode_titleTextStyle = 1;
+        public static int ActionMode_titleTextStyle = 1;
         /**  Attrbitutes for a ActivityChooserView. 
            <p>Includes the following attributes:</p>
            <table>
@@ -2699,7 +2699,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:expandActivityOverflowButtonDrawable
         */
-        public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
+        public static int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
           <p>
           @attr description
@@ -2715,7 +2715,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:initialActivityCount
         */
-        public static final int ActivityChooserView_initialActivityCount = 0;
+        public static int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CompatTextView.
            <p>Includes the following attributes:</p>
            <table>
@@ -2741,7 +2741,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:textAllCaps
         */
-        public static final int CompatTextView_textAllCaps = 0;
+        public static int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a LinearLayoutICS.
            <p>Includes the following attributes:</p>
            <table>
@@ -2770,7 +2770,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:divider
         */
-        public static final int LinearLayoutICS_divider = 0;
+        public static int LinearLayoutICS_divider = 0;
         /**
           <p>
           @attr description
@@ -2788,7 +2788,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:dividerPadding
         */
-        public static final int LinearLayoutICS_dividerPadding = 2;
+        public static int LinearLayoutICS_dividerPadding = 2;
         /**
           <p>
           @attr description
@@ -2809,7 +2809,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:showDividers
         */
-        public static final int LinearLayoutICS_showDividers = 1;
+        public static int LinearLayoutICS_showDividers = 1;
         /** Attributes that can be used with a MapAttrs.
            <p>Includes the following attributes:</p>
            <table>
@@ -2865,7 +2865,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:cameraBearing
         */
-        public static final int MapAttrs_cameraBearing = 1;
+        public static int MapAttrs_cameraBearing = 1;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2879,7 +2879,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:cameraTargetLat
         */
-        public static final int MapAttrs_cameraTargetLat = 2;
+        public static int MapAttrs_cameraTargetLat = 2;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2893,7 +2893,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:cameraTargetLng
         */
-        public static final int MapAttrs_cameraTargetLng = 3;
+        public static int MapAttrs_cameraTargetLng = 3;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2907,7 +2907,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:cameraTilt
         */
-        public static final int MapAttrs_cameraTilt = 4;
+        public static int MapAttrs_cameraTilt = 4;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2921,7 +2921,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:cameraZoom
         */
-        public static final int MapAttrs_cameraZoom = 5;
+        public static int MapAttrs_cameraZoom = 5;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2941,7 +2941,7 @@ containing a value of this type.
 </table>
           @attr name com.cisco.cmx:mapType
         */
-        public static final int MapAttrs_mapType = 0;
+        public static int MapAttrs_mapType = 0;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2955,7 +2955,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:uiCompass
         */
-        public static final int MapAttrs_uiCompass = 6;
+        public static int MapAttrs_uiCompass = 6;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2969,7 +2969,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:uiRotateGestures
         */
-        public static final int MapAttrs_uiRotateGestures = 7;
+        public static int MapAttrs_uiRotateGestures = 7;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2983,7 +2983,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:uiScrollGestures
         */
-        public static final int MapAttrs_uiScrollGestures = 8;
+        public static int MapAttrs_uiScrollGestures = 8;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -2997,7 +2997,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:uiTiltGestures
         */
-        public static final int MapAttrs_uiTiltGestures = 9;
+        public static int MapAttrs_uiTiltGestures = 9;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -3011,7 +3011,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:uiZoomControls
         */
-        public static final int MapAttrs_uiZoomControls = 10;
+        public static int MapAttrs_uiZoomControls = 10;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -3025,7 +3025,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:uiZoomGestures
         */
-        public static final int MapAttrs_uiZoomGestures = 11;
+        public static int MapAttrs_uiZoomGestures = 11;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -3039,7 +3039,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:useViewLifecycle
         */
-        public static final int MapAttrs_useViewLifecycle = 12;
+        public static int MapAttrs_useViewLifecycle = 12;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
@@ -3053,7 +3053,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:zOrderOnTop
         */
-        public static final int MapAttrs_zOrderOnTop = 13;
+        public static int MapAttrs_zOrderOnTop = 13;
         /**  Base attributes that are available to all groups. 
            <p>Includes the following attributes:</p>
            <table>
@@ -3086,7 +3086,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#checkableBehavior}.
           @attr name android:checkableBehavior
         */
-        public static final int MenuGroup_android_checkableBehavior = 5;
+        public static int MenuGroup_android_checkableBehavior = 5;
         /**
           <p>
           @attr description
@@ -3095,7 +3095,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#enabled}.
           @attr name android:enabled
         */
-        public static final int MenuGroup_android_enabled = 0;
+        public static int MenuGroup_android_enabled = 0;
         /**
           <p>
           @attr description
@@ -3104,7 +3104,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#id}.
           @attr name android:id
         */
-        public static final int MenuGroup_android_id = 1;
+        public static int MenuGroup_android_id = 1;
         /**
           <p>
           @attr description
@@ -3114,7 +3114,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#menuCategory}.
           @attr name android:menuCategory
         */
-        public static final int MenuGroup_android_menuCategory = 3;
+        public static int MenuGroup_android_menuCategory = 3;
         /**
           <p>
           @attr description
@@ -3124,7 +3124,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#orderInCategory}.
           @attr name android:orderInCategory
         */
-        public static final int MenuGroup_android_orderInCategory = 4;
+        public static int MenuGroup_android_orderInCategory = 4;
         /**
           <p>
           @attr description
@@ -3133,7 +3133,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#visible}.
           @attr name android:visible
         */
-        public static final int MenuGroup_android_visible = 2;
+        public static int MenuGroup_android_visible = 2;
         /**  Base attributes that are available to all Item objects. 
            <p>Includes the following attributes:</p>
            <table>
@@ -3199,7 +3199,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:actionLayout
         */
-        public static final int MenuItem_actionLayout = 14;
+        public static int MenuItem_actionLayout = 14;
         /**
           <p>
           @attr description
@@ -3218,7 +3218,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:actionProviderClass
         */
-        public static final int MenuItem_actionProviderClass = 16;
+        public static int MenuItem_actionProviderClass = 16;
         /**
           <p>
           @attr description
@@ -3236,7 +3236,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:actionViewClass
         */
-        public static final int MenuItem_actionViewClass = 15;
+        public static int MenuItem_actionViewClass = 15;
         /**
           <p>
           @attr description
@@ -3246,7 +3246,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#alphabeticShortcut}.
           @attr name android:alphabeticShortcut
         */
-        public static final int MenuItem_android_alphabeticShortcut = 9;
+        public static int MenuItem_android_alphabeticShortcut = 9;
         /**
           <p>
           @attr description
@@ -3255,7 +3255,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#checkable}.
           @attr name android:checkable
         */
-        public static final int MenuItem_android_checkable = 11;
+        public static int MenuItem_android_checkable = 11;
         /**
           <p>
           @attr description
@@ -3265,7 +3265,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#checked}.
           @attr name android:checked
         */
-        public static final int MenuItem_android_checked = 3;
+        public static int MenuItem_android_checked = 3;
         /**
           <p>
           @attr description
@@ -3274,7 +3274,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#enabled}.
           @attr name android:enabled
         */
-        public static final int MenuItem_android_enabled = 1;
+        public static int MenuItem_android_enabled = 1;
         /**
           <p>
           @attr description
@@ -3284,7 +3284,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#icon}.
           @attr name android:icon
         */
-        public static final int MenuItem_android_icon = 0;
+        public static int MenuItem_android_icon = 0;
         /**
           <p>
           @attr description
@@ -3293,7 +3293,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#id}.
           @attr name android:id
         */
-        public static final int MenuItem_android_id = 2;
+        public static int MenuItem_android_id = 2;
         /**
           <p>
           @attr description
@@ -3303,7 +3303,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#menuCategory}.
           @attr name android:menuCategory
         */
-        public static final int MenuItem_android_menuCategory = 5;
+        public static int MenuItem_android_menuCategory = 5;
         /**
           <p>
           @attr description
@@ -3313,7 +3313,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#numericShortcut}.
           @attr name android:numericShortcut
         */
-        public static final int MenuItem_android_numericShortcut = 10;
+        public static int MenuItem_android_numericShortcut = 10;
         /**
           <p>
           @attr description
@@ -3323,7 +3323,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#onClick}.
           @attr name android:onClick
         */
-        public static final int MenuItem_android_onClick = 12;
+        public static int MenuItem_android_onClick = 12;
         /**
           <p>
           @attr description
@@ -3333,7 +3333,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#orderInCategory}.
           @attr name android:orderInCategory
         */
-        public static final int MenuItem_android_orderInCategory = 6;
+        public static int MenuItem_android_orderInCategory = 6;
         /**
           <p>
           @attr description
@@ -3342,7 +3342,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#title}.
           @attr name android:title
         */
-        public static final int MenuItem_android_title = 7;
+        public static int MenuItem_android_title = 7;
         /**
           <p>
           @attr description
@@ -3352,7 +3352,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#titleCondensed}.
           @attr name android:titleCondensed
         */
-        public static final int MenuItem_android_titleCondensed = 8;
+        public static int MenuItem_android_titleCondensed = 8;
         /**
           <p>
           @attr description
@@ -3361,7 +3361,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#visible}.
           @attr name android:visible
         */
-        public static final int MenuItem_android_visible = 4;
+        public static int MenuItem_android_visible = 4;
         /**
           <p>
           @attr description
@@ -3392,7 +3392,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:showAsAction
         */
-        public static final int MenuItem_showAsAction = 13;
+        public static int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
            <p>Includes the following attributes:</p>
            <table>
@@ -3419,7 +3419,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x0101040c
+            0x0101012f, 0x01010130, 0x01010131, 0x0101052f
         };
         /**
           <p>
@@ -3429,7 +3429,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#headerBackground}.
           @attr name android:headerBackground
         */
-        public static final int MenuView_android_headerBackground = 4;
+        public static int MenuView_android_headerBackground = 4;
         /**
           <p>
           @attr description
@@ -3438,7 +3438,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#horizontalDivider}.
           @attr name android:horizontalDivider
         */
-        public static final int MenuView_android_horizontalDivider = 2;
+        public static int MenuView_android_horizontalDivider = 2;
         /**
           <p>
           @attr description
@@ -3447,7 +3447,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#itemBackground}.
           @attr name android:itemBackground
         */
-        public static final int MenuView_android_itemBackground = 5;
+        public static int MenuView_android_itemBackground = 5;
         /**
           <p>
           @attr description
@@ -3456,7 +3456,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#itemIconDisabledAlpha}.
           @attr name android:itemIconDisabledAlpha
         */
-        public static final int MenuView_android_itemIconDisabledAlpha = 6;
+        public static int MenuView_android_itemIconDisabledAlpha = 6;
         /**
           <p>
           @attr description
@@ -3465,7 +3465,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#itemTextAppearance}.
           @attr name android:itemTextAppearance
         */
-        public static final int MenuView_android_itemTextAppearance = 1;
+        public static int MenuView_android_itemTextAppearance = 1;
         /**
           <p>
           @attr description
@@ -3473,7 +3473,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name android:preserveIconSpacing
         */
-        public static final int MenuView_android_preserveIconSpacing = 7;
+        public static int MenuView_android_preserveIconSpacing = 7;
         /**
           <p>
           @attr description
@@ -3482,7 +3482,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#verticalDivider}.
           @attr name android:verticalDivider
         */
-        public static final int MenuView_android_verticalDivider = 3;
+        public static int MenuView_android_verticalDivider = 3;
         /**
           <p>
           @attr description
@@ -3491,7 +3491,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#windowAnimationStyle}.
           @attr name android:windowAnimationStyle
         */
-        public static final int MenuView_android_windowAnimationStyle = 0;
+        public static int MenuView_android_windowAnimationStyle = 0;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -3522,7 +3522,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#imeOptions}.
           @attr name android:imeOptions
         */
-        public static final int SearchView_android_imeOptions = 2;
+        public static int SearchView_android_imeOptions = 2;
         /**
           <p>
           @attr description
@@ -3531,7 +3531,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#inputType}.
           @attr name android:inputType
         */
-        public static final int SearchView_android_inputType = 1;
+        public static int SearchView_android_inputType = 1;
         /**
           <p>
           @attr description
@@ -3540,7 +3540,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#maxWidth}.
           @attr name android:maxWidth
         */
-        public static final int SearchView_android_maxWidth = 0;
+        public static int SearchView_android_maxWidth = 0;
         /**
           <p>
           @attr description
@@ -3557,7 +3557,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:iconifiedByDefault
         */
-        public static final int SearchView_iconifiedByDefault = 3;
+        public static int SearchView_iconifiedByDefault = 3;
         /**
           <p>
           @attr description
@@ -3573,7 +3573,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:queryHint
         */
-        public static final int SearchView_queryHint = 4;
+        public static int SearchView_queryHint = 4;
         /** Attributes that can be used with a SlidingMenu.
            <p>Includes the following attributes:</p>
            <table>
@@ -3631,7 +3631,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:behindOffset
         */
-        public static final int SlidingMenu_behindOffset = 3;
+        public static int SlidingMenu_behindOffset = 3;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#behindScrollScale}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3645,7 +3645,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:behindScrollScale
         */
-        public static final int SlidingMenu_behindScrollScale = 5;
+        public static int SlidingMenu_behindScrollScale = 5;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#behindWidth}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3661,7 +3661,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:behindWidth
         */
-        public static final int SlidingMenu_behindWidth = 4;
+        public static int SlidingMenu_behindWidth = 4;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#fadeDegree}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3675,7 +3675,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:fadeDegree
         */
-        public static final int SlidingMenu_fadeDegree = 11;
+        public static int SlidingMenu_fadeDegree = 11;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#fadeEnabled}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3689,7 +3689,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:fadeEnabled
         */
-        public static final int SlidingMenu_fadeEnabled = 10;
+        public static int SlidingMenu_fadeEnabled = 10;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#mode}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3706,7 +3706,7 @@ containing a value of this type.
 </table>
           @attr name com.cisco.cmx:mode
         */
-        public static final int SlidingMenu_mode = 0;
+        public static int SlidingMenu_mode = 0;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#selectorDrawable}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3716,7 +3716,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.cisco.cmx:selectorDrawable
         */
-        public static final int SlidingMenu_selectorDrawable = 13;
+        public static int SlidingMenu_selectorDrawable = 13;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#selectorEnabled}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3730,7 +3730,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:selectorEnabled
         */
-        public static final int SlidingMenu_selectorEnabled = 12;
+        public static int SlidingMenu_selectorEnabled = 12;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#shadowDrawable}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3740,7 +3740,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.cisco.cmx:shadowDrawable
         */
-        public static final int SlidingMenu_shadowDrawable = 8;
+        public static int SlidingMenu_shadowDrawable = 8;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#shadowWidth}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3756,7 +3756,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:shadowWidth
         */
-        public static final int SlidingMenu_shadowWidth = 9;
+        public static int SlidingMenu_shadowWidth = 9;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#touchModeAbove}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3773,7 +3773,7 @@ containing a value of this type.
 </table>
           @attr name com.cisco.cmx:touchModeAbove
         */
-        public static final int SlidingMenu_touchModeAbove = 6;
+        public static int SlidingMenu_touchModeAbove = 6;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#touchModeBehind}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3790,7 +3790,7 @@ containing a value of this type.
 </table>
           @attr name com.cisco.cmx:touchModeBehind
         */
-        public static final int SlidingMenu_touchModeBehind = 7;
+        public static int SlidingMenu_touchModeBehind = 7;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#viewAbove}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3800,7 +3800,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.cisco.cmx:viewAbove
         */
-        public static final int SlidingMenu_viewAbove = 1;
+        public static int SlidingMenu_viewAbove = 1;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#viewBehind}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -3810,7 +3810,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.cisco.cmx:viewBehind
         */
-        public static final int SlidingMenu_viewBehind = 2;
+        public static int SlidingMenu_viewBehind = 2;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
@@ -3857,7 +3857,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#dropDownHorizontalOffset}.
           @attr name android:dropDownHorizontalOffset
         */
-        public static final int Spinner_android_dropDownHorizontalOffset = 4;
+        public static int Spinner_android_dropDownHorizontalOffset = 4;
         /**
           <p>
           @attr description
@@ -3866,7 +3866,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#dropDownSelector}.
           @attr name android:dropDownSelector
         */
-        public static final int Spinner_android_dropDownSelector = 1;
+        public static int Spinner_android_dropDownSelector = 1;
         /**
           <p>
           @attr description
@@ -3876,7 +3876,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#dropDownVerticalOffset}.
           @attr name android:dropDownVerticalOffset
         */
-        public static final int Spinner_android_dropDownVerticalOffset = 5;
+        public static int Spinner_android_dropDownVerticalOffset = 5;
         /**
           <p>
           @attr description
@@ -3885,7 +3885,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#dropDownWidth}.
           @attr name android:dropDownWidth
         */
-        public static final int Spinner_android_dropDownWidth = 3;
+        public static int Spinner_android_dropDownWidth = 3;
         /**
           <p>
           @attr description
@@ -3894,7 +3894,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#gravity}.
           @attr name android:gravity
         */
-        public static final int Spinner_android_gravity = 0;
+        public static int Spinner_android_gravity = 0;
         /**
           <p>
           @attr description
@@ -3903,7 +3903,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#popupBackground}.
           @attr name android:popupBackground
         */
-        public static final int Spinner_android_popupBackground = 2;
+        public static int Spinner_android_popupBackground = 2;
         /**
           <p>
           @attr description
@@ -3920,7 +3920,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:disableChildrenWhenDisabled
         */
-        public static final int Spinner_disableChildrenWhenDisabled = 9;
+        public static int Spinner_disableChildrenWhenDisabled = 9;
         /**
           <p>
           @attr description
@@ -3934,7 +3934,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:popupPromptView
         */
-        public static final int Spinner_popupPromptView = 8;
+        public static int Spinner_popupPromptView = 8;
         /**
           <p>
           @attr description
@@ -3946,7 +3946,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:prompt
         */
-        public static final int Spinner_prompt = 6;
+        public static int Spinner_prompt = 6;
         /**
           <p>
           @attr description
@@ -3966,7 +3966,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:spinnerMode
         */
-        public static final int Spinner_spinnerMode = 7;
+        public static int Spinner_spinnerMode = 7;
         /**  These are the standard attributes that make up a complete theme. 
            <p>Includes the following attributes:</p>
            <table>
@@ -4002,7 +4002,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:actionDropDownStyle
         */
-        public static final int Theme_actionDropDownStyle = 0;
+        public static int Theme_actionDropDownStyle = 0;
         /**
           <p>
           @attr description
@@ -4020,7 +4020,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:dropdownListPreferredItemHeight
         */
-        public static final int Theme_dropdownListPreferredItemHeight = 1;
+        public static int Theme_dropdownListPreferredItemHeight = 1;
         /**
           <p>
           @attr description
@@ -4032,7 +4032,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:listChoiceBackgroundIndicator
         */
-        public static final int Theme_listChoiceBackgroundIndicator = 5;
+        public static int Theme_listChoiceBackgroundIndicator = 5;
         /**
           <p>
           @attr description
@@ -4044,7 +4044,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:panelMenuListTheme
         */
-        public static final int Theme_panelMenuListTheme = 4;
+        public static int Theme_panelMenuListTheme = 4;
         /**
           <p>
           @attr description
@@ -4062,7 +4062,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:panelMenuListWidth
         */
-        public static final int Theme_panelMenuListWidth = 3;
+        public static int Theme_panelMenuListWidth = 3;
         /**
           <p>
           @attr description
@@ -4074,7 +4074,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.cisco.cmx:popupMenuStyle
         */
-        public static final int Theme_popupMenuStyle = 2;
+        public static int Theme_popupMenuStyle = 2;
         /** Attributes that can be used with a View.
            <p>Includes the following attributes:</p>
            <table>
@@ -4105,7 +4105,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#focusable}.
           @attr name android:focusable
         */
-        public static final int View_android_focusable = 0;
+        public static int View_android_focusable = 0;
         /**
           <p>
           @attr description
@@ -4123,7 +4123,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:paddingEnd
         */
-        public static final int View_paddingEnd = 2;
+        public static int View_paddingEnd = 2;
         /**
           <p>
           @attr description
@@ -4141,7 +4141,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.cisco.cmx:paddingStart
         */
-        public static final int View_paddingStart = 1;
+        public static int View_paddingStart = 1;
         /** Attributes that can be used with a com_facebook_friend_picker_fragment.
            <p>Includes the following attributes:</p>
            <table>
@@ -4168,7 +4168,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:multi_select
         */
-        public static final int com_facebook_friend_picker_fragment_multi_select = 0;
+        public static int com_facebook_friend_picker_fragment_multi_select = 0;
         /** Attributes that can be used with a com_facebook_login_view.
            <p>Includes the following attributes:</p>
            <table>
@@ -4201,7 +4201,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:confirm_logout
         */
-        public static final int com_facebook_login_view_confirm_logout = 0;
+        public static int com_facebook_login_view_confirm_logout = 0;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#fetch_user_info}
           attribute's value can be found in the {@link #com_facebook_login_view} array.
@@ -4215,7 +4215,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:fetch_user_info
         */
-        public static final int com_facebook_login_view_fetch_user_info = 1;
+        public static int com_facebook_login_view_fetch_user_info = 1;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#login_text}
           attribute's value can be found in the {@link #com_facebook_login_view} array.
@@ -4229,7 +4229,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:login_text
         */
-        public static final int com_facebook_login_view_login_text = 2;
+        public static int com_facebook_login_view_login_text = 2;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#logout_text}
           attribute's value can be found in the {@link #com_facebook_login_view} array.
@@ -4243,7 +4243,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:logout_text
         */
-        public static final int com_facebook_login_view_logout_text = 3;
+        public static int com_facebook_login_view_logout_text = 3;
         /** Attributes that can be used with a com_facebook_picker_fragment.
            <p>Includes the following attributes:</p>
            <table>
@@ -4279,7 +4279,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.cisco.cmx:done_button_background
         */
-        public static final int com_facebook_picker_fragment_done_button_background = 6;
+        public static int com_facebook_picker_fragment_done_button_background = 6;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#done_button_text}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
@@ -4293,7 +4293,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:done_button_text
         */
-        public static final int com_facebook_picker_fragment_done_button_text = 4;
+        public static int com_facebook_picker_fragment_done_button_text = 4;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#extra_fields}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
@@ -4307,7 +4307,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:extra_fields
         */
-        public static final int com_facebook_picker_fragment_extra_fields = 1;
+        public static int com_facebook_picker_fragment_extra_fields = 1;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#show_pictures}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
@@ -4321,7 +4321,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:show_pictures
         */
-        public static final int com_facebook_picker_fragment_show_pictures = 0;
+        public static int com_facebook_picker_fragment_show_pictures = 0;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#show_title_bar}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
@@ -4335,7 +4335,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:show_title_bar
         */
-        public static final int com_facebook_picker_fragment_show_title_bar = 2;
+        public static int com_facebook_picker_fragment_show_title_bar = 2;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#title_bar_background}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
@@ -4345,7 +4345,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.cisco.cmx:title_bar_background
         */
-        public static final int com_facebook_picker_fragment_title_bar_background = 5;
+        public static int com_facebook_picker_fragment_title_bar_background = 5;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#title_text}
           attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
@@ -4359,7 +4359,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:title_text
         */
-        public static final int com_facebook_picker_fragment_title_text = 3;
+        public static int com_facebook_picker_fragment_title_text = 3;
         /** Attributes that can be used with a com_facebook_place_picker_fragment.
            <p>Includes the following attributes:</p>
            <table>
@@ -4392,7 +4392,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:radius_in_meters
         */
-        public static final int com_facebook_place_picker_fragment_radius_in_meters = 0;
+        public static int com_facebook_place_picker_fragment_radius_in_meters = 0;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#results_limit}
           attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
@@ -4406,7 +4406,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:results_limit
         */
-        public static final int com_facebook_place_picker_fragment_results_limit = 1;
+        public static int com_facebook_place_picker_fragment_results_limit = 1;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#search_text}
           attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
@@ -4420,7 +4420,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:search_text
         */
-        public static final int com_facebook_place_picker_fragment_search_text = 2;
+        public static int com_facebook_place_picker_fragment_search_text = 2;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#show_search_box}
           attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
@@ -4434,7 +4434,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:show_search_box
         */
-        public static final int com_facebook_place_picker_fragment_show_search_box = 3;
+        public static int com_facebook_place_picker_fragment_show_search_box = 3;
         /** Attributes that can be used with a com_facebook_profile_picture_view.
            <p>Includes the following attributes:</p>
            <table>
@@ -4463,7 +4463,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.cisco.cmx:is_cropped
         */
-        public static final int com_facebook_profile_picture_view_is_cropped = 1;
+        public static int com_facebook_profile_picture_view_is_cropped = 1;
         /**
           <p>This symbol is the offset where the {@link com.cisco.cmx.R.attr#preset_size}
           attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
@@ -4481,6 +4481,6 @@ containing a value of this type.
 </table>
           @attr name com.cisco.cmx:preset_size
         */
-        public static final int com_facebook_profile_picture_view_preset_size = 0;
+        public static int com_facebook_profile_picture_view_preset_size = 0;
     };
 }
